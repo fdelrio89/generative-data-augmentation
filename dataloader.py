@@ -9,6 +9,8 @@ import os
 import pandas as pd 
 from tqdm import tqdm
 
+str2list = lambda x: [k[1:-1] for k in x.strip('][').split(', ')]
+
 class dataLoader():
     """
     Load the data for the captions from tsv files and the images from the dataset API  
@@ -28,6 +30,9 @@ class dataLoader():
         self.text_dataset = {'all' : pd.read_csv(path_text_data + 'Caption_all.tsv', sep='\t')}
         self.text_dataset.update({'test_%s' %skill : pd.read_csv(path_text_data + 'Caption_test_%s.tsv'%skill, sep='\t') for skill in list_skills if os.path.isfile(path_text_data + 'Caption_test_%s.tsv'%skill)})
         self.text_dataset.update({'train_%s' %skill : pd.read_csv(path_text_data + 'Caption_train_%s.tsv'%skill, sep='\t') for skill in list_skills if os.path.isfile(path_text_data + 'Caption_test_%s.tsv'%skill)})
+        for k in self.text_dataset.keys():
+            if 'train' in k:
+                self.text_dataset[k].prompt_segmentation = self.text_dataset[k].prompt_segmentation.map(str2list)
         print("Text loaded:", list(self.text_dataset.keys()))
 
         # image
