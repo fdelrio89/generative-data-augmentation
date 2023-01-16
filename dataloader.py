@@ -28,8 +28,8 @@ class dataLoader():
 
         # text
         self.text_dataset = {'all' : pd.read_csv(path_text_data + 'Caption_all.tsv', sep='\t')}
-        self.text_dataset.update({'test_%s' %skill : pd.read_csv(path_text_data + 'Caption_test_%s.tsv'%skill, sep='\t') for skill in list_skills if os.path.isfile(path_text_data + 'Caption_test_%s.tsv'%skill)})
-        self.text_dataset.update({'train_%s' %skill : pd.read_csv(path_text_data + 'Caption_train_%s.tsv'%skill, sep='\t') for skill in list_skills if os.path.isfile(path_text_data + 'Caption_test_%s.tsv'%skill)})
+        self.text_dataset.update({'test_%s' %skill : pd.read_csv(path_text_data + 'Caption_testing_%s.tsv'%skill, sep='\t') for skill in list_skills if os.path.isfile(path_text_data + 'Caption_testing_%s.tsv'%skill)})
+        self.text_dataset.update({'train_%s' %skill : pd.read_csv(path_text_data + 'Caption_training_%s.tsv'%skill, sep='\t') for skill in list_skills if os.path.isfile(path_text_data + 'Caption_training_%s.tsv'%skill)})
         for k in self.text_dataset.keys():
             if 'train' in k:
                 self.text_dataset[k].prompt_segmentation = self.text_dataset[k].prompt_segmentation.map(str2list)
@@ -46,7 +46,7 @@ class dataLoader():
         else:
             range_to_load = len(self.img_dataset['train'])
         for x in tqdm(range(range_to_load)):
-            idx2iid = {int(os.path.basename(self.img_dataset['train'][x]['image_id']).split('.')[0]) : x}
+            self.idx2iid[int(os.path.basename(self.img_dataset['train'][x]['image_id']).split('.')[0])] = x
 
         print("Image loaded")
 
@@ -55,4 +55,3 @@ class dataLoader():
         Function that return the image regarding the iid
         """
         return self.img_dataset['train'][self.idx2iid[iid]]['image']
-
