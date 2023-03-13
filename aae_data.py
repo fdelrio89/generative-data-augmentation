@@ -101,5 +101,5 @@ class AaEFlickrDataset(Dataset):
 if __name__ == "__main__":
     dset = AaEFlickrDataset()
     for idx, i in enumerate(dset):
-        print(i)
+        pass
     print("All good! Dataloader is working properly :)")
