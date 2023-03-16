@@ -7,6 +7,7 @@ from detectron2 import model_zoo
 from PIL import Image
 from pprint import pprint
 from torchvision import transforms
+from transformers import CLIPProcessor, CLIPModel
 
 IMAGENET_21k_URL = 'https://storage.googleapis.com/bit_models/imagenet21k_wordnet_lemmas.txt'
 NUMBER_OF_CLASSES = 21841
@@ -76,22 +77,42 @@ class DetectronEvaluator:
 
 
 class ClipEvaluator:
+    """
+    Interface to evaluate synthetic images with OpenAI's CLIP
+    """
 
-    def __init__(self):
-        pass
+    def __init__(
+        self,
+        architecture: str = "laion/CLIP-ViT-g-14-laion2B-s12B-b42K"
+    ) -> None:
+        self.model = CLIPModel.from_pretrained(architecture)
+        self.model.eval()
+        self.processor = CLIPProcessor.from_pretrained(architecture)
 
-    def evaluate(self):
-        pass
+    @torch.no_grad()
+    def evaluate(self, image, label = None):
+        inputs = self.processor(text=label, images=image, return_tensors="pt", padding=True)
+        outputs = self.model(**inputs)
+
+        # we use the cosine similarity between text and image as a metric
+        cosine_sim = torch.nn.functional.cosine_similarity(
+            outputs.text_embeds,
+            outputs.image_embeds,
+            dim=-1
+        )
+
+        return cosine_sim
 
 class DummyModel:
     pass
 
 if __name__ == "__main__":
-    evaluator = TimmEvaluator()
+    evaluator = ClipEvaluator()
 
     image_path = 'cristian.jpg'
     image = Image.open(image_path)
 
     # score = evaluator.evaluate(image, "homo, man, human_being, human")
-    score = evaluator.evaluate(image)
+    # score = evaluator.evaluate(image)
+    score = evaluator.evaluate(image, "a selfie of a bearded man")
     print(score)
