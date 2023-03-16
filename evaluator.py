@@ -3,8 +3,10 @@ import torch
 import torch.nn as nn
 import requests
 
+from detectron2 import model_zoo
 from PIL import Image
 from pprint import pprint
+from torchvision import transforms
 
 IMAGENET_21k_URL = 'https://storage.googleapis.com/bit_models/imagenet21k_wordnet_lemmas.txt'
 NUMBER_OF_CLASSES = 21841
@@ -40,14 +42,34 @@ class TimmEvaluator(nn.Module):
         elif type(label) == list:
             return [results[sublabel] for sublabel in label]
 
+
+class DetectronEvaluator:
+
+    def __init__(
+        self,
+        architecture: str = "COCO-InstanceSegmentation/mask_rcnn_R_50_FPN_1x.yaml"
+    ) -> None:
+        self.model = model_zoo.get(architecture, trained=True)
+        self.model.eval()
+        self.transform = transforms.Compose([transforms.ToTensor()])
+
+    @torch.no_grad()
+    def evaluate(self, image):
+        tensor_image = self.transform(image)
+        inputs = [{"image": tensor_image}]
+        outputs = self.model(inputs)
+
+        return outputs
+
 class Model:
     pass
 
 if __name__ == "__main__":
-    evaluator = TimmEvaluator()
+    evaluator = DetectronEvaluator()
 
     image_path = 'cristian.jpg'
     image = Image.open(image_path)
 
-    score = evaluator.evaluate(image, "homo, man, human_being, human")
+    # score = evaluator.evaluate(image, "homo, man, human_being, human")
+    score = evaluator.evaluate(image)
     print(score)
