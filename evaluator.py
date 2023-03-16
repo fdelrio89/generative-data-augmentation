@@ -12,6 +12,12 @@ IMAGENET_21k_URL = 'https://storage.googleapis.com/bit_models/imagenet21k_wordne
 NUMBER_OF_CLASSES = 21841
 
 class TimmEvaluator(nn.Module):
+    """
+    Interface to evaluate synthetic images with PyTorch Image Models
+
+    Go over https://timm.fast.ai/models to see available models.
+    """
+
     def __init__(
         self,
         architecture: str ='convnext_large_in22k'
@@ -31,7 +37,9 @@ class TimmEvaluator(nn.Module):
         
         return probabilities
     
-    def evaluate(self, image, label):
+    def evaluate(self, image, label = None):
+        assert label is not None, "you need Imagenet 21k label/s for this evaluator"
+
         image_tensor = self.transform(image)
         probabilities = self(image_tensor.unsqueeze(0))
         values, indices = torch.topk(probabilities, self.k)
@@ -44,6 +52,11 @@ class TimmEvaluator(nn.Module):
 
 
 class DetectronEvaluator:
+    """
+    Interface to evaluate synthetic images with Facebook's Detectron2
+
+    Go over https://github.com/facebookresearch/detectron2/blob/main/MODEL_ZOO.md to see available models.
+    """
 
     def __init__(
         self,
@@ -61,11 +74,20 @@ class DetectronEvaluator:
 
         return outputs
 
-class Model:
+
+class ClipEvaluator:
+
+    def __init__(self):
+        pass
+
+    def evaluate(self):
+        pass
+
+class DummyModel:
     pass
 
 if __name__ == "__main__":
-    evaluator = DetectronEvaluator()
+    evaluator = TimmEvaluator()
 
     image_path = 'cristian.jpg'
     image = Image.open(image_path)
