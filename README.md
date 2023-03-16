@@ -20,4 +20,25 @@ Model references:
     -[List of pre-trained models](https://github.com/facebookresearch/detectron2/blob/main/MODEL_ZOO.md)
     -[Model zoo from python](https://detectron2.readthedocs.io/en/latest/modules/model_zoo.html)
 
-## Attend and Excite
+
+
+
+AndreS:
+- Usar clip con una imagen controlada, con el label persona
+---
+## El problema
+
+3 categorías en las cuales hacemos augmentation:
+
+    - Color
+    - Género
+    - Counting
+
+Por ejemplo lo que hacemos, es que dado un caption tipo:
+
+"The man in a green shirt was riding a bike"
+
+Cambiamos "green" por "blue", y generamos una imagen ($i$) con el nuevo prompt $p$.
+
+Queremos una wea que me evalúe si $i$ dado $p$ tiene sentido, o parece real.    
+
