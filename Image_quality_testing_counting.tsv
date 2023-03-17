@@ -1,0 +1,994 @@
+image_ID	caption_ID	caption	split	word_detected	augmented_captions	prompt_segmentation	sample
+102617084	445	Five snowmobile riders all wearing helmets and goggles line up in a snowy clearing in a forest in front of their snowmobiles; they are all wearing black snow pants and from left to right they are wearing a black coat, white coat, red coat, blue coat, and black coat.	test	['five']	['Six snowmobile riders all wearing helmets and goggles line up in a snowy clearing in a forest in front of their snowmobiles; they are all wearing black snow pants and from left to right they are wearing a black coat, white coat, red coat, blue coat, and black coat.']	['Five snowmobile riders']	True
+102617084	446	Five people wearing winter jackets and helmets stand in the snow, with snowmobiles in the background.	test	['five']	['Six people wearing winter jackets and helmets stand in the snow, with snowmobiles in the background.']	['Five people']	False
+102617084	447	Five people wearing winter clothing, helmets, and ski goggles stand outside in the snow.	test	['five']	['Six people wearing winter clothing, helmets, and ski goggles stand outside in the snow.']	['Five people']	False
+10287332	485	Two men sitting on the roof of a house while another one stands on a ladder.	test	['two']	['Three men sitting on the roof of a house while another one stands on a ladder.']	['Two men']	False
+10287332	486	Two men on a rooftop while another man stands atop a ladder watching them	test	['two']	['Three men on a rooftop while another man stands atop a ladder watching them']	['Two men']	False
+10287332	487	Three men, one on a ladder, work on a roof.	test	['three']	['Four men, one on a ladder, work on a roof.']	['Three men']	False
+10287332	489	Three men are working on a roof.	test	['three']	['Two men are working on a roof.']	['Three men']	False
+109260218	1296	Shaft of light in a cave shows three spelunkers	test	['three']	['Shaft of light in a cave shows four spelunkers']	['three spelunkers']	False
+109260218	1297	Three rock climbers are posing on big rocks.	test	['three']	['Two rock climbers are posing on big rocks.']	['Three rock climbers']	False
+109260218	1299	Three people sit in a cave.	test	['three']	['Two people sit in a cave.']	['Three people']	False
+110671448	1590	A woman standing with 3 other people in a store with two tables, some shelves with coffee and tea for sale, and a refrigerated drink case.	test	['two']	['A woman standing with 3 other people in a store with three tables, some shelves with coffee and tea for sale, and a refrigerated drink case.']	['two tables']	False
+1131056918	1975	Two young attractive women in front of a store drop coins for street performers.	test	['two']	['Three young attractive women in front of a store drop coins for street performers.']	['Two young attractive women']	True
+1131056918	1976	Two women enjoy the entertainment of street performers.	test	['two']	['Three women enjoy the entertainment of street performers.']	['Two women']	False
+1131056918	1977	Two men pretend to be statutes while women look on.	test	['two']	['Three men pretend to be statutes while women look on.']	['Two men']	True
+1131056918	1978	Two young women stop and watch street performers.	test	['two']	['Three young women stop and watch street performers.']	['Two young women']	False
+1167908324	2601	A man stands next to three video game machines and a beer sign.	test	['three']	['A man stands next to four video game machines and a beer sign.']	['three video game machines']	False
+1167908324	2604	A man stands next to three video machines.	test	['three']	['A man stands next to four video machines.']	['three video machines']	False
+12252043	3270	Four young Asian boys hold bowls and chopsticks as they stand around a barbecue.	test	['four']	['Three young Asian boys hold bowls and chopsticks as they stand around a barbecue.']	['Four young Asian boys']	False
+12252043	3272	Four young boys are standing around a grill.	test	['four']	['Three young boys are standing around a grill.']	['Four young boys']	False
+12252043	3273	Four young teens having fun at a cookout.	test	['four']	['Three young teens having fun at a cookout.']	['Four young teens']	False
+1229536824	3306	Three people are dressed in costumes and playing musical instruments.	test	['three']	['Two people are dressed in costumes and playing musical instruments.']	['Three people']	False
+1229536824	3308	A tribal performance of dance and song of three individuals.	test	['three']	['A tribal performance of dance and song of four individuals.']	['three individuals']	False
+1250181412	3670	Six people ride mountain bikes through a jungle environment.	test	['six']	['Five people ride mountain bikes through a jungle environment.']	['Six people']	False
+1250181412	3672	There are six men mountain biking in a forest terrain.	test	['six']	['There are five men mountain biking in a forest terrain.']	['six men mountain biking']	False
+1250181412	3673	Six People riding bikes on a trail in the forest.	test	['six']	['Five People riding bikes on a trail in the forest.']	['Six People']	False
+1253095131	3740	Two blond women sit outside as people walk by wearing casual clothing and some wearing bookbags.	test	['two']	['Three blond women sit outside as people walk by wearing casual clothing and some wearing bookbags.']	['Two blond women']	False
+1253095131	3741	Two females in a sitting down in a highly populated area.	test	['two']	['Three females in a sitting down in a highly populated area.']	['Two females']	True
+1253095131	3744	Two women have a seat in a busy metropolitan area.	test	['two']	['Three women have a seat in a busy metropolitan area.']	['Two women']	False
+1258913059	3800	Three people sit at an outdoor table in front of a building painted like the Union Jack.	test	['three']	['Four people sit at an outdoor table in front of a building painted like the Union Jack.']	['Three people']	False
+1258913059	3801	Three people sit at a picnic table outside of a building painted like a union jack.	test	['three']	['Two people sit at a picnic table outside of a building painted like a union jack.']	['Three people']	True
+1258913059	3802	Three people are sitting at an outside picnic bench with an umbrella.	test	['three']	['Four people are sitting at an outside picnic bench with an umbrella.']	['Three people']	False
+1258913059	3804	Three people sit at an outdoor cafe.	test	['three']	['Two people sit at an outdoor cafe.']	['Three people']	True
+1332208215	5151	Two men and one woman are sitting in a subway train.	test	['two']	['Three men and one woman are sitting in a subway train.']	['Two men']	True
+1351500610	5585	Two male friends in swimming trunks jump on the beach while people in the background lay in the sand.	test	['two']	['Three male friends in swimming trunks jump on the beach while people in the background lay in the sand.']	['Two male friends']	False
+1351500610	5586	Two middle-aged men are jumping for joy on a beautiful beach surrounded by rocks.	test	['two']	['Three middle-aged men are jumping for joy on a beautiful beach surrounded by rocks.']	['Two middle-aged men']	False
+1351500610	5587	Two men wearing swim trunks jump in the air at a moderately populated beach.	test	['two']	['Three men wearing swim trunks jump in the air at a moderately populated beach.']	['Two men']	True
+1351500610	5588	Two men wearing swimming trunks jump in the air while on the beach.	test	['two']	['Three men wearing swimming trunks jump in the air while on the beach.']	['Two men']	False
+1351500610	5589	Two men jumping excitedly at a rocky beach.	test	['two']	['Three men jumping excitedly at a rocky beach.']	['Two men']	False
+136693281	6011	A father-figure and two children outside their home doing yard work such as using a hoe on the grass and planting a tree.	test	['two']	['A father-figure and three children outside their home doing yard work such as using a hoe on the grass and planting a tree.']	['two children']	True
+136693281	6013	Two small children with older man plating a tree.	test	['two']	['Three small children with older man plating a tree.']	['Two small children']	True
+136693281	6014	A man and two children are planting a tree.	test	['two']	['A man and three children are planting a tree.']	['two children']	False
+1397344877	6550	Four police officers are swallowed up by the large crowd of people on the street.	test	['four']	['Five police officers are swallowed up by the large crowd of people on the street.']	['Four police officers']	False
+1417882092	7085	Two young men dressed in black stand next to each other looking at something.	test	['two']	['Three young men dressed in black stand next to each other looking at something.']	['Two young men']	False
+1417882092	7086	Two guys standing side by side.	test	['two']	['Three guys standing side by side.']	['Two guys']	False
+1417882092	7087	Two men are watching something.	test	['two']	['Three men are watching something.']	['Two men']	False
+1417882092	7088	Two men wearing black in a city	test	['two']	['Three men wearing black in a city']	['Two men']	False
+1417882092	7089	Two male spectators	test	['two']	['Three male spectators']	['Two male spectators']	False
+14559446	7880	Two men wearing hats and holding canes are standing silhouetted against a large body of water with sunlight reflecting off the water and a tree to the side.	test	['two']	['Three men wearing hats and holding canes are standing silhouetted against a large body of water with sunlight reflecting off the water and a tree to the side.']	['Two men']	False
+14559446	7881	Two men wearing hats and using walking sticks are walking near a body of water during sundown.	test	['two']	['Three men wearing hats and using walking sticks are walking near a body of water during sundown.']	['Two men']	False
+14559446	7882	Two men stand beneath a tree as they watch the sunset over the ocean.	test	['two']	['Three men stand beneath a tree as they watch the sunset over the ocean.']	['Two men']	False
+14559446	7883	Two mature hikers take a break and admire the sunset over the lake.	test	['two']	['Three mature hikers take a break and admire the sunset over the lake.']	['Two mature hikers']	False
+14559446	7884	Two men playing golf near water while the sun is setting.	test	['two']	['Three men playing golf near water while the sun is setting.']	['Two men']	False
+1459582913	7970	Three people dressed in blue, white and black leotards are being held up by the hands of a set of two people each on the ground dressed in the same outfit as people look on.	test	['two', 'three']	['Three people dressed in blue, white and black leotards are being held up by the hands of a set of three people each on the ground dressed in the same outfit as people look on.', 'Two people dressed in blue, white and black leotards are being held up by the hands of a set of two people each on the ground dressed in the same outfit as people look on.']	['two people', 'Three people']	False
+1459582913	7971	A group of male and female cheerleaders create three formations.	test	['three']	['A group of male and female cheerleaders create four formations.']	['three formations']	True
+150411291	8855	Two boys wearing red jackets are digging shovels into the dirt, the smaller boy in the yellow boots has a mohawk.	test	['two']	['Three boys wearing red jackets are digging shovels into the dirt, the smaller boy in the yellow boots has a mohawk.']	['Two boys']	True
+150411291	8858	Two people dig with shovels at a playground by the ocean.	test	['two']	['Three people dig with shovels at a playground by the ocean.']	['Two people']	False
+150411291	8859	Two children playing in the sand.	test	['two']	['Three children playing in the sand.']	['Two children']	False
+151970521	9107	An old woman is sitting on a bench, while behind her a limo pulls up and two people in white are walking by.	test	['two']	['An old woman is sitting on a bench, while behind her a limo pulls up and three people in white are walking by.']	['two people']	False
+160792599	10220	Three men and two women stand facing the ocean from the shore on a sunny day.	test	['two', 'three']	['Three men and three women stand facing the ocean from the shore on a sunny day.', 'Two men and two women stand facing the ocean from the shore on a sunny day.']	['two women', 'Three men']	False
+160792599	10222	Five people standing in front of a body of water.	test	['five']	['Four people standing in front of a body of water.']	['Five people']	True
+160792599	10223	Two ladies and three men looking at the ocean.	test	['two', 'three']	['Three ladies and three men looking at the ocean.', 'Two ladies and four men looking at the ocean.']	['Two ladies', 'three men']	True
+160792599	10224	Five people look out toward the ocean.	test	['five']	['Four people look out toward the ocean.']	['Five people']	False
+16151663	10272	Two ladies play the violin and the guitar on the street to entertain the passer byes.	test	['two']	['Three ladies play the violin and the guitar on the street to entertain the passer byes.']	['Two ladies']	True
+16151663	10273	Two women on the street, one is playing the guitar and the other is playing violin.	test	['two']	['Three women on the street, one is playing the guitar and the other is playing violin.']	['Two women']	False
+164969525	10565	Three people dancing acrobatically in a subway station, with one girl in a skirt doing a cartwheel over another person bending over.	test	['three']	['Four people dancing acrobatically in a subway station, with one girl in a skirt doing a cartwheel over another person bending over.']	['Three people']	True
+164969525	10567	Three teenagers in a subway playing around.	test	['three']	['Two teenagers in a subway playing around.']	['Three teenagers']	False
+164969525	10568	Four people in the subway are having fun.	test	['four']	['Three people in the subway are having fun.']	['Four people']	True
+164969525	10569	Three people dancing in the subway.	test	['three']	['Two people dancing in the subway.']	['Three people']	False
+16626851	10650	Two men sitting in front of a building and a field of grass in front of them.	test	['two']	['Three men sitting in front of a building and a field of grass in front of them.']	['Two men']	True
+16626851	10653	Two people sit on a grassy lawn in front of a building.	test	['two']	['Three people sit on a grassy lawn in front of a building.']	['Two people']	True
+166283675	10656	Shirtless guy staring off in the distance while three woman are walking past a crowd sitting outside a cafe.	test	['three']	['Shirtless guy staring off in the distance while four woman are walking past a crowd sitting outside a cafe.']	['three woman']	False
+166283675	10657	A shirtless man and three women walk outside near a street cafe.	test	['three']	['A shirtless man and two women walk outside near a street cafe.']	['three women']	False
+166283675	10658	Four people dressed for warm weather out on a street walking.	test	['four']	['Five people dressed for warm weather out on a street walking.']	['Four people']	False
+1664475761	10695	Two boys try to attach fruits to a bicycle on a dirt road.	test	['two']	['Three boys try to attach fruits to a bicycle on a dirt road.']	['Two boys']	False
+1664475761	10696	Two young men getting ready to move fruit on their bike.	test	['two']	['Three young men getting ready to move fruit on their bike.']	['Two young men']	False
+1664475761	10697	Two young men are loading fruit unto a bicycle.	test	['two']	['Three young men are loading fruit unto a bicycle.']	['Two young men']	False
+1664475761	10698	Two young boys loading fruit onto a bicycle.	test	['two']	['Three young boys loading fruit onto a bicycle.']	['Two young boys']	False
+1664475761	10699	Two young boys putting fruit on the bike.	test	['two']	['Three young boys putting fruit on the bike.']	['Two young boys']	True
+1690926854	10987	Two volleyball girls team both jumping for a double high-five	test	['two']	['Three volleyball girls team both jumping for a double high-five']	['Two volleyball girls team']	False
+180209719	12166	The man in a Japanese cooking suit is preparing a meal for two people.	test	['two']	['The man in a Japanese cooking suit is preparing a meal for three people.']	['two people']	False
+183647966	12617	A male worker with his tool box is kneeling next to two women.	test	['two']	['A male worker with his tool box is kneeling next to three women.']	['two women']	True
+183647966	12618	A man working on a ticket machine as two women stand near.	test	['two']	['A man working on a ticket machine as three women stand near.']	['two women']	True
+1874530310	13000	Three construction workers are digging a whole next to a wall in a field.	test	['three']	['Four construction workers are digging a whole next to a wall in a field.']	['Three construction workers']	False
+1874530310	13001	Three men wearing safety vests and doing yard work in a field.	test	['three']	['Four men wearing safety vests and doing yard work in a field.']	['Three men']	False
+1874530310	13002	Three men in reflective vests doing yard work in a field.	test	['three']	['Four men in reflective vests doing yard work in a field.']	['Three men']	False
+1874530310	13003	Three men in same colored vests are in the outdoors.	test	['three']	['Two men in same colored vests are in the outdoors.']	['Three men']	False
+1874530310	13004	Three men work behind a short wall.	test	['three']	['Four men work behind a short wall.']	['Three men']	False
+202174004	14533	Five people in full gear are mountain climbing.	test	['five']	['Six people in full gear are mountain climbing.']	['Five people']	False
+2063399864	15390	Two children wearing hats are standing on the shoreline, and a woman is holding one child by the arm while the other is fishing.	test	['two']	['Three children wearing hats are standing on the shoreline, and a woman is holding one child by the arm while the other is fishing.']	['Two children']	False
+2063399864	15391	An adult wearing a black shirt and tan pants is standing at the water's edge with two children.	test	['two']	"[""An adult wearing a black shirt and tan pants is standing at the water's edge with three children.""]"	['two children']	True
+2063399864	15392	A mother teaches her two young boys to fish off of a rocky coast into very blue water.	test	['two']	['A mother teaches her three young boys to fish off of a rocky coast into very blue water.']	['her two young boys']	True
+2063399864	15393	Two young children and an adult are fishing on the shoreline near large rocks.	test	['two']	['Three young children and an adult are fishing on the shoreline near large rocks.']	['Two young children']	True
+2064792226	15437	Two people ride a colorful bike while a blond woman takes their picture.	test	['two']	['Three people ride a colorful bike while a blond woman takes their picture.']	['Two people']	False
+2064792226	15438	Two people ridding a colorfully decorated bicycle.	test	['two']	['Three people ridding a colorfully decorated bicycle.']	['Two people']	False
+2064792226	15439	Two people on a bicycle are posing for a picture	test	['two']	['Three people on a bicycle are posing for a picture']	['Two people']	True
+2072331027	15653	Two Indian men participating in a ceremony.	test	['two']	['Three Indian men participating in a ceremony.']	['Two Indian men']	False
+2088705195	16225	Two men are sitting in a canoe in the middle of a lake, watching the sunset in the background.	test	['two']	['Three men are sitting in a canoe in the middle of a lake, watching the sunset in the background.']	['Two men']	False
+2088705195	16226	Two people sitting on a kayak in calm water looking at a marvelous sunset.	test	['two']	['Three people sitting on a kayak in calm water looking at a marvelous sunset.']	['Two people']	False
+2088705195	16227	Two silhouetted people paddle a canoe on the ocean during sunset.	test	['two']	['Three silhouetted people paddle a canoe on the ocean during sunset.']	['Two silhouetted people']	False
+2088705195	16228	Two people canoe down a river at the time of a beautiful sunset.	test	['two']	['Three people canoe down a river at the time of a beautiful sunset.']	['Two people']	False
+2088705195	16229	Two people in a canoe on the waterside during sunset.	test	['two']	['Three people in a canoe on the waterside during sunset.']	['Two people']	True
+21138719	17185	Man in black pants and vest balances between to pillars, holding two flaming torches in his right hand.	test	['two']	['Man in black pants and vest balances between to pillars, holding three flaming torches in his right hand.']	['two flaming torches']	True
+21138719	17186	A well-dressed man climbing between two columns while holding torches.	test	['two']	['A well-dressed man climbing between three columns while holding torches.']	['two columns']	False
+21138719	17187	A man in a suit is straddling two pillars while holding a flame.	test	['two']	['A man in a suit is straddling three pillars while holding a flame.']	['two pillars']	False
+21138719	17188	Juggler standing balanced between two columns	test	['two']	['Juggler standing balanced between three columns']	['two columns']	True
+2115631346	17255	Two brown dogs run across a large snowy yard.	test	['two']	['Three brown dogs run across a large snowy yard.']	['Two brown dogs']	False
+2115631346	17256	Two brown dogs are running through the snow.	test	['two']	['Three brown dogs are running through the snow.']	['Two brown dogs']	True
+2115631346	17257	Two brown dogs running through the snow.	test	['two']	['Three brown dogs running through the snow.']	['Two brown dogs']	False
+2115631346	17258	Two dogs race across a snowy field.	test	['two']	['Three dogs race across a snowy field.']	['Two dogs race']	False
+2115631346	17259	Two dogs run through a snowy field.	test	['two']	['Three dogs run through a snowy field.']	['Two dogs']	False
+2152057198	18242	Two men are having a conversation in a cathedral or mosque.	test	['two']	['Three men are having a conversation in a cathedral or mosque.']	['Two men']	False
+2152057198	18244	Two elderly men having a conversation.	test	['two']	['Three elderly men having a conversation.']	['Two elderly men']	False
+2165461920	18505	Four white dogs are running and jumping with masks over their mouth.	test	['four']	['Five white dogs are running and jumping with masks over their mouth.']	['Four white dogs']	False
+2165461920	18506	Four muzzled black and white dogs racing over a jump.	test	['four']	['Three muzzled black and white dogs racing over a jump.']	['Four muzzled black and white dogs']	False
+2165461920	18507	Four white dogs with muzzles jump over a red wall.	test	['four']	['Three white dogs with muzzles jump over a red wall.']	['Four white dogs']	False
+2169788484	18620	Two people are seated in striped outdoor chairs which are placed in a body of water and one man is holding a large fishing pole.	test	['two']	['Three people are seated in striped outdoor chairs which are placed in a body of water and one man is holding a large fishing pole.']	['Two people']	True
+2169788484	18621	Two people are sitting fishing on striped beach chairs in a body of water.	test	['two']	['Three people are sitting fishing on striped beach chairs in a body of water.']	['Two people']	False
+2169788484	18622	Two men sit in beach chairs in the shallows as one goes fishing.	test	['two']	['Three men sit in beach chairs in the shallows as one goes fishing.']	['Two men']	False
+2169788484	18623	Two men are sitting in chairs in the water fishing.	test	['two']	['Three men are sitting in chairs in the water fishing.']	['Two men']	False
+2188599628	19131	Two persons in hooded coats on a street while a mini cooper car drives by.	test	['two']	['Three persons in hooded coats on a street while a mini cooper car drives by.']	['Two persons']	True
+2190227737	19170	A woman stands in a field surrounded by three attentive gray dogs.	test	['three']	['A woman stands in a field surrounded by two attentive gray dogs.']	['three attentive gray dogs']	False
+2190227737	19171	Three brown dogs are jumping up at the woman wearing blue.	test	['three']	['Two brown dogs are jumping up at the woman wearing blue.']	['Three brown dogs']	False
+2190227737	19172	A girl holds something while three dogs beg.	test	['three']	['A girl holds something while two dogs beg.']	['three dogs']	True
+2190227737	19173	The woman and three dogs are in a field.	test	['three']	['The woman and four dogs are in a field.']	['three dogs']	True
+2190227737	19174	Three gray dogs jump at a woman.	test	['three']	['Four gray dogs jump at a woman.']	['Three gray dogs']	True
+2217728745	20206	A picture of five people at a bar with a closeup on the beer taps.	test	['five']	['A picture of six people at a bar with a closeup on the beer taps.']	['five people']	True
+2268207503	22011	An old man in a green shirt is walking down a paved path with three small children.	test	['three']	['An old man in a green shirt is walking down a paved path with four small children.']	['three small children']	False
+2268207503	22012	A man and three kids walk up a paved hill.	test	['three']	['A man and two kids walk up a paved hill.']	['three kids']	False
+23018702	23315	Woman in a white dress standing with a tennis racket and two people in green behind her.	test	['two']	['Woman in a white dress standing with a tennis racket and three people in green behind her.']	['two people']	False
+2330536645	24395	Six shirtless children are playing in natural water and splashing around.	test	['six']	['Five shirtless children are playing in natural water and splashing around.']	['Six shirtless children']	False
+2330536645	24398	Six kids splash in water	test	['six']	['Five kids splash in water']	['Six kids']	False
+2330765551	24406	Two people bicycle on a path separated by small mountains.	test	['two']	['Three people bicycle on a path separated by small mountains.']	['Two people bicycle']	True
+2330765551	24407	Two people riding bikes through a mountainous region.	test	['two']	['Three people riding bikes through a mountainous region.']	['Two people']	False
+2330765551	24408	Two cyclists traverse a green terrain.	test	['two']	['Three cyclists traverse a green terrain.']	['Two cyclists']	False
+2330765551	24409	Two people are riding bikes up a hill	test	['two']	['Three people are riding bikes up a hill']	['Two people']	False
+2342035754	24905	A mother and two children opening gifts on a Christmas morning.	test	['two']	['A mother and three children opening gifts on a Christmas morning.']	['two children']	False
+2342035754	24906	Two ladies and a little girl in her pajamas opening gifts	test	['two']	['Three ladies and a little girl in her pajamas opening gifts']	['Two ladies']	True
+2346401538	25081	The woman in blue is operating a camera in front of two other women.	test	['two']	['The woman in blue is operating a camera in front of three other women.']	['two other women']	False
+2368266191	25858	Two dogs are playing outside.	test	['two']	['Three dogs are playing outside.']	['Two dogs']	False
+2368266191	25859	Two dogs play by a tree.	test	['two']	['Three dogs play by a tree.']	['Two dogs']	False
+238177432	26307	Two men dressed in green are preparing food in a restaurant.	test	['two']	['Three men dressed in green are preparing food in a restaurant.']	['Two men']	False
+238177432	26309	Two men cooking fast food.	test	['two']	['Three men cooking fast food.']	['Two men']	False
+2407470303	27206	A fluffy black-and-white dog runs from three people on a sandy beach.	test	['three']	['A fluffy black-and-white dog runs from two people on a sandy beach.']	['three people']	False
+2407470303	27207	A shaggy dog runs in front of three people on the beach.	test	['three']	['A shaggy dog runs in front of two people on the beach.']	['three people']	False
+2407470303	27208	Dog in foreground with three people in background.	test	['three']	['Dog in foreground with four people in background.']	['three people']	False
+2421340833	27902	A woman looking at a piece of paper standing between two men.	test	['two']	['A woman looking at a piece of paper standing between three men.']	['two men']	False
+2421340833	27904	Two men and a lady are standing outside.	test	['two']	['Three men and a lady are standing outside.']	['Two men']	True
+2438754748	28716	Two women wearing tank tops are looking at the camera.	test	['two']	['Three women wearing tank tops are looking at the camera.']	['Two women']	False
+2438754748	28717	Two women posing for a picture together outside	test	['two']	['Three women posing for a picture together outside']	['Two women']	False
+2438754748	28718	Two best friends embracing their friendship.	test	['two']	['Three best friends embracing their friendship.']	['Two best friends']	True
+2438754748	28719	Two girls posing for the camera.	test	['two']	['Three girls posing for the camera.']	['Two girls']	False
+2447284966	29176	A little boy is holding a skinny baseball bat while standing between two rows of blue seats.	test	['two']	['A little boy is holding a skinny baseball bat while standing between three rows of blue seats.']	['two rows']	False
+2451114871	29336	Four dogs in blue, green, red and black jerseys are racing.	test	['four']	['Three dogs in blue, green, red and black jerseys are racing.']	['Four dogs']	True
+2451114871	29338	Four dogs race around a turn.	test	['four']	['Five dogs race around a turn.']	['Four dogs race']	True
+246231741	29738	Two German sheperds snarling at each other.	test	['two']	['Three German sheperds snarling at each other.']	['Two German sheperds']	False
+246231741	29739	Two German Sheppard dogs are fighting.	test	['two']	['Three German Sheppard dogs are fighting.']	['Two German Sheppard dogs']	False
+2470493181	30040	Two boys holding a green rope and competing against each other on a balancing rod, while others look on.	test	['two']	['Three boys holding a green rope and competing against each other on a balancing rod, while others look on.']	['Two boys']	False
+2470493181	30041	Two boys are standing on a balance beam while playing with a green rope.	test	['two']	['Three boys are standing on a balance beam while playing with a green rope.']	['Two boys']	False
+2470493181	30042	Two young boys playing a game on a log while other kids look on.	test	['two']	['Three young boys playing a game on a log while other kids look on.']	['Two young boys']	False
+2470493181	30043	Two kids are balancing on a log and holding a rope.	test	['two']	['Three kids are balancing on a log and holding a rope.']	['Two kids']	False
+2470493181	30044	Two boys on a balance beam holding a rope	test	['two']	['Three boys on a balance beam holding a rope']	['Two boys']	False
+2504764590	31251	A man is standing at edge of a pond, with two dogs and is throwing a branch is water.	test	['two']	['A man is standing at edge of a pond, with three dogs and is throwing a branch is water.']	['two dogs']	False
+2504764590	31252	A man is throwing a big stick into the water so his two dogs and go fetch it.	test	['two']	['A man is throwing a big stick into the water so his three dogs and go fetch it.']	['his two dogs']	True
+2504764590	31253	A man is throwing a log into a waterway while two dogs watch.	test	['two']	['A man is throwing a log into a waterway while three dogs watch.']	['two dogs']	False
+2504764590	31254	Someone is at the water's edge with two dogs.	test	['two']	"[""Someone is at the water's edge with three dogs.""]"	['two dogs']	False
+2506460104	31291	Four elderly people sitting under a white tent playing musical instruments.	test	['four']	['Five elderly people sitting under a white tent playing musical instruments.']	['Four elderly people']	False
+2506460104	31293	Four people playing instruments underneath a white tent.	test	['four']	['Five people playing instruments underneath a white tent.']	['Four people']	True
+2511798599	31531	Two young people in blue shirts share a megaphone at some kind of festival with a Greenpeace tent.	test	['two']	['Three young people in blue shirts share a megaphone at some kind of festival with a Greenpeace tent.']	['Two young people']	False
+2511798599	31532	Two young men in blue holding a loudspeaker with one talking.	test	['two']	['Three young men in blue holding a loudspeaker with one talking.']	['Two young men']	False
+2511798599	31533	Two people in blue shirts are outside with a bullhorn.	test	['two']	['Three people in blue shirts are outside with a bullhorn.']	['Two people']	True
+2511798599	31534	Two people in blue shirts using a megaphone.	test	['two']	['Three people in blue shirts using a megaphone.']	['Two people']	False
+2537755800	32745	Two men wearing helmets and orange suits are having a conversation at a construction site.	test	['two']	['Three men wearing helmets and orange suits are having a conversation at a construction site.']	['Two men']	False
+2537755800	32746	Two construction workers have a discussion while on the work site.	test	['two']	['Three construction workers have a discussion while on the work site.']	['Two construction workers']	False
+2537755800	32747	Two construction workers with orange jackets are talking.	test	['two']	['Three construction workers with orange jackets are talking.']	['Two construction workers']	False
+2537755800	32749	Two men with hard hats are talking.	test	['two']	['Three men with hard hats are talking.']	['Two men']	False
+2547291721	33225	Two men are walking up a ramp while a third walks up a separate ramp in the opposite direction.	test	['two']	['Three men are walking up a ramp while a third walks up a separate ramp in the opposite direction.']	['Two men']	False
+2547291721	33226	Two men walk up a ramp, as another man in a blue shirt walks along a road below them.	test	['two']	['Three men walk up a ramp, as another man in a blue shirt walks along a road below them.']	['Two men']	False
+2547291721	33228	Three men are walking up hill.	test	['three']	['Four men are walking up hill.']	['Three men']	False
+2547291721	33229	Three people walking uphill	test	['three']	['Two people walking uphill']	['Three people']	False
+2558911884	33666	Three boys are playing with sponges and buckets of water.	test	['three']	['Four boys are playing with sponges and buckets of water.']	['Three boys']	False
+2558911884	33667	Three kids throwing water balloons.	test	['three']	['Two kids throwing water balloons.']	['Three kids']	True
+2558911884	33669	Three young boys play outside.	test	['three']	['Two young boys play outside.']	['Three young boys']	False
+2565302802	33906	Three workers in safety vests and hard hats lay cement.	test	['three']	['Two workers in safety vests and hard hats lay cement.']	['Three workers']	False
+2565302802	33907	Three construction workers are mending pavement.	test	['three']	['Four construction workers are mending pavement.']	['Three construction workers']	False
+2565302802	33908	Three workers in bright vests are shoveling.	test	['three']	['Two workers in bright vests are shoveling.']	['Three workers']	False
+2566294211	33981	Several young people congregating by two canoes.	test	['two']	['Several young people congregating by three canoes.']	['two canoes']	True
+2566294211	33983	Six people are sitting behind two kayaks.	test	['two', 'six']	['Six people are sitting behind three kayaks.', 'Five people are sitting behind two kayaks.']	['two kayaks', 'Six people']	False
+2613889835	35767	Two men is separate canoes are in an area full of lillypads.	test	['two']	['Three men is separate canoes are in an area full of lillypads.']	['Two men']	False
+2613889835	35768	Two guys are kayaking, one orange one blue, down a creek.	test	['two']	['Three guys are kayaking, one orange one blue, down a creek.']	['Two guys']	False
+2613889835	35769	Two men are paddling their small canoes through the water.	test	['two']	['Three men are paddling their small canoes through the water.']	['Two men']	False
+261627889	35850	Two people wearing all white are painting a brick wall.	test	['two']	['Three people wearing all white are painting a brick wall.']	['Two people']	False
+261627889	35851	Two people, wearing white, are painting a wall.	test	['two']	['Three people, wearing white, are painting a wall.']	['Two people']	False
+261627889	35852	Two workers spread cement onto a brick building.	test	['two']	['Three workers spread cement onto a brick building.']	['Two workers']	False
+261627889	35853	Two women repairing a wall with concrete.	test	['two']	['Three women repairing a wall with concrete.']	['Two women']	False
+261627889	35854	Two people painting a brick wall.	test	['two']	['Three people painting a brick wall.']	['Two people']	False
+2658439322	37460	Two performers putting on a mock fight for an audience that is watching attentively.	test	['two']	['Three performers putting on a mock fight for an audience that is watching attentively.']	['Two performers']	True
+2658439322	37461	Two men participate in a recreation of a medieval sword fight while a crowd watches.	test	['two']	['Three men participate in a recreation of a medieval sword fight while a crowd watches.']	['Two men']	False
+2658439322	37462	Two people putting on a show at the Renaissance fair.	test	['two']	['Three people putting on a show at the Renaissance fair.']	['Two people']	False
+2658439322	37463	Two people recreating a medieval fight.	test	['two']	['Three people recreating a medieval fight.']	['Two people']	False
+2658439322	37464	Two men pretend to be knights.	test	['two']	['Three men pretend to be knights.']	['Two men']	False
+2686849571	38411	A street performer reads an angry passage from his book to two attentive recipients.	test	['two']	['A street performer reads an angry passage from his book to three attentive recipients.']	['two attentive recipients']	False
+2686849571	38414	The man is on his knees while reading to the two women.	test	['two']	['The man is on his knees while reading to the three women.']	['the two women']	False
+2689001252	38513	Three children in swimsuites are having fun outside near a white building.	test	['three']	['Two children in swimsuites are having fun outside near a white building.']	['Three children']	False
+270263570	38955	Two brown and white dogs play roughly in a clearing of a wooded area.	test	['two']	['Three brown and white dogs play roughly in a clearing of a wooded area.']	['Two brown and white dogs']	False
+270263570	38956	Two dogs are biting each other in the woods.	test	['two']	['Three dogs are biting each other in the woods.']	['Two dogs']	True
+270263570	38957	Two brown dogs playing in a rough manner.	test	['two']	['Three brown dogs playing in a rough manner.']	['Two brown dogs']	False
+270263570	38958	Two brown dogs fight on the leafy ground.	test	['two']	['Three brown dogs fight on the leafy ground.']	['Two brown dogs']	False
+270263570	38959	Two brown dogs wearing collars fighting.	test	['two']	['Three brown dogs wearing collars fighting.']	['Two brown dogs']	False
+2714703706	39562	Two dogs are nuzzling each other nose to nose.	test	['two']	['Three dogs are nuzzling each other nose to nose.']	['Two dogs']	True
+2714703706	39563	Two dogs bite at each other on the carpet.	test	['two']	['Three dogs bite at each other on the carpet.']	['Two dogs']	False
+271572671	39606	Two men are standing on the street talking while another walks by.	test	['two']	['Three men are standing on the street talking while another walks by.']	['Two men']	False
+271572671	39607	Two men stop on the sidewalk to chat as a third passes by.	test	['two']	['Three men stop on the sidewalk to chat as a third passes by.']	['Two men']	False
+271572671	39608	Two men stop to chat on the sidewalk as a car passes by.	test	['two']	['Three men stop to chat on the sidewalk as a car passes by.']	['Two men']	True
+271572671	39609	Two men are discussing something.	test	['two']	['Three men are discussing something.']	['Two men']	False
+2724485630	39930	Two blond-haired women wear matching clothing and love beer.	test	['two']	['Three blond-haired women wear matching clothing and love beer.']	['Two blond-haired women']	False
+2724485630	39931	"Two blond women in ""I love beer"" shirts walk outside."	test	['two']	"['Three blond women in ""I love beer"" shirts walk outside.']"	['Two blond women']	False
+2724485630	39932	Two blond women are wearing white I love beer shirts.	test	['two']	['Three blond women are wearing white I love beer shirts.']	['Two blond women']	False
+2724485630	39933	Two women wear shirts depicting how much they like beer	test	['two']	['Three women wear shirts depicting how much they like beer']	['Two women']	False
+2724485630	39934	Two woman wearing similar shirts walk to the left.	test	['two']	['Three woman wearing similar shirts walk to the left.']	['Two woman']	True
+2729685399	40115	Three people standing near each other wearing coats with other people in the background	test	['three']	['Two people standing near each other wearing coats with other people in the background']	['Three people']	False
+2729685399	40116	Three young adults talk in a crowd of people, the woman looks upset.	test	['three']	['Two young adults talk in a crowd of people, the woman looks upset.']	['Three young adults']	False
+2729685399	40117	Three people are talking in front of an airport	test	['three']	['Two people are talking in front of an airport']	['Three people']	False
+2729685399	40119	Three people talking on a city street.	test	['three']	['Four people talking on a city street.']	['Three people']	False
+273603643	40271	Two children are sitting on a stool on the front outside of a white door.	test	['two']	['Three children are sitting on a stool on the front outside of a white door.']	['Two children']	True
+273699639	40350	Three people, wearing dark clothes, get together for a close hug, outside of a cafe.	test	['three']	['Four people, wearing dark clothes, get together for a close hug, outside of a cafe.']	['Three people']	False
+273699639	40351	A black man and his two white friends are putting their heads close together.	test	['two']	['A black man and his three white friends are putting their heads close together.']	['his two white friends']	False
+273699639	40352	Three friends at a cafe taking a photo-op.	test	['three']	['Four friends at a cafe taking a photo-op.']	['Three friends']	False
+273699639	40353	Three people wearing black are posing.	test	['three']	['Two people wearing black are posing.']	['Three people']	False
+273699639	40354	A woman sitting with two men hugging.	test	['two']	['A woman sitting with three men hugging.']	['two men']	False
+2737609659	40395	In rural outdoors, blond woman sits on roof of yellow BMW vehicle, two people inside.	test	['two']	['In rural outdoors, blond woman sits on roof of yellow BMW vehicle, three people inside.']	['two people']	True
+2737609659	40396	Two people drive a Jeep while a lady sits on the top of it.	test	['two']	['Three people drive a Jeep while a lady sits on the top of it.']	['Two people']	False
+2737609659	40398	A four wheel drive vehicle is driving on a dirt track.	test	['four']	['A five wheel drive vehicle is driving on a dirt track.']	['A four wheel drive vehicle']	False
+2755362721	41127	Sand is kicked up as two animals run.	test	['two']	['Sand is kicked up as three animals run.']	['two animals']	False
+2755362721	41128	Two dogs on a wet, sandy track.	test	['two']	['Three dogs on a wet, sandy track.']	['Two dogs']	False
+2760716468	41336	A man sits on a step with two duffel bags and a plastic bag by his sides.	test	['two']	['A man sits on a step with three duffel bags and a plastic bag by his sides.']	['two duffel bags']	False
+2773474615	41812	A woman talking to four little children outside.	test	['four']	['A woman talking to five little children outside.']	['four little children']	True
+2773474615	41813	A mother with her four children.	test	['four']	['A mother with her three children.']	['her four children']	False
+2773744784	41822	Two men are having a discussion after a wedding.	test	['two']	['Three men are having a discussion after a wedding.']	['Two men']	False
+2773744784	41823	Two well-dressed men chat.	test	['two']	['Three well-dressed men chat.']	['Two well-dressed men']	False
+2812568040	43155	A bald man holds a fish in front of a lake while two blond young children stand near him while holding fishing poles.	test	['two']	['A bald man holds a fish in front of a lake while three blond young children stand near him while holding fishing poles.']	['two blond young children']	True
+2812568040	43156	A man and two girls show off a fish while holding fishing poles in front of a body of water.	test	['two']	['A man and three girls show off a fish while holding fishing poles in front of a body of water.']	['two girls']	False
+2812568040	43157	Two young girls with fishing poles and a man displaying a fish they caught.	test	['two']	['Three young girls with fishing poles and a man displaying a fish they caught.']	['Two young girls']	True
+2812568040	43158	This man holds a fish while two little girls stand to either side of him.	test	['two']	['This man holds a fish while three little girls stand to either side of him.']	['two little girls']	False
+2812568040	43159	A man and two young children are fishing by a pond.	test	['two']	['A man and three young children are fishing by a pond.']	['two young children']	True
+2830561413	43700	A woman sits at a primary colored children's table, playing with building blocks, as two girls in pink dresses, and a boy in a red shirt surround her.	test	['two']	"[""A woman sits at a primary colored children's table, playing with building blocks, as three girls in pink dresses, and a boy in a red shirt surround her.""]"	['two girls']	False
+2830561413	43702	A woman and three children are playing with various toys from a toy box.	test	['three']	['A woman and four children are playing with various toys from a toy box.']	['three children']	False
+2830561413	43704	A woman and three children are in a room full of toys.	test	['three']	['A woman and four children are in a room full of toys.']	['three children']	True
+2844747252	44360	Two dogs are fighting over a toy and another dog is chasing them.	test	['two']	['Three dogs are fighting over a toy and another dog is chasing them.']	['Two dogs']	False
+2844747252	44361	Three dogs are playing with a yellow ball in a grassy field.	test	['three']	['Two dogs are playing with a yellow ball in a grassy field.']	['Three dogs']	False
+2844747252	44362	A small dog watches two big dogs playing rough in a field.	test	['two']	['A small dog watches three big dogs playing rough in a field.']	['two big dogs']	True
+2844747252	44363	Two dogs play together and another runs after in a field.	test	['two']	['Three dogs play together and another runs after in a field.']	['Two dogs']	False
+2844747252	44364	Three dogs play together in the field.	test	['three']	['Two dogs play together in the field.']	['Three dogs']	False
+2854959952	44700	The two dogs, one of which is leaping in the air, are chasing a ball outdoors.	test	['two']	['The three dogs, one of which is leaping in the air, are chasing a ball outdoors.']	['The two dogs']	True
+2854959952	44702	Two small dogs pursuing a ball across a grassy field.	test	['two']	['Three small dogs pursuing a ball across a grassy field.']	['Two small dogs']	True
+2854959952	44703	Two dogs play catch with a ball in a field.	test	['two']	['Three dogs play catch with a ball in a field.']	['Two dogs']	False
+2854959952	44704	Two dogs jump for a ball on a green field.	test	['two']	['Three dogs jump for a ball on a green field.']	['Two dogs']	True
+286084055	44966	Three people are having a conversation in a living room.	test	['three']	['Four people are having a conversation in a living room.']	['Three people']	False
+286084055	44967	One man and two women having a discussion over white wine	test	['two']	['One man and three women having a discussion over white wine']	['two women']	True
+286084055	44968	Three people are talking while two of them are drinking.	test	['two', 'three']	['Three people are talking while three of them are drinking.', 'Two people are talking while two of them are drinking.']	['two', 'Three people']	False
+286084055	44969	A man and two girls are talking and drinking wine.	test	['two']	['A man and three girls are talking and drinking wine.']	['two girls']	True
+2870426310	45325	Three little children in a grassy yard running towards the camera.	test	['three']	['Four little children in a grassy yard running towards the camera.']	['Three little children']	False
+2870426310	45326	Three toddlers are running towards the camera in a grassy yard.	test	['three']	['Two toddlers are running towards the camera in a grassy yard.']	['Three toddlers']	True
+2870426310	45327	Two little girls and one little boy are running on the grass.	test	['two']	['Three little girls and one little boy are running on the grass.']	['Two little girls']	False
+2870426310	45328	Three young children are walking through a grassy yard.	test	['three']	['Two young children are walking through a grassy yard.']	['Three young children']	False
+2870426310	45329	Three little kids are playing on a yard.	test	['three']	['Four little kids are playing on a yard.']	['Three little kids']	False
+289638061	46428	Two diverse teams competing in soccer.	test	['two']	['Three diverse teams competing in soccer.']	['Two diverse teams']	False
+289638061	46429	Two soccer teams are on the field.	test	['two']	['Three soccer teams are on the field.']	['Two soccer teams']	False
+2923386532	47460	Two odd statue like costumes are being worn in a street, they are surrounded by others at what appears to be a festival.	test	['two']	['Three odd statue like costumes are being worn in a street, they are surrounded by others at what appears to be a festival.']	['Two odd statue']	False
+2923386532	47461	Two towers made of flashy fabric with weird heads on top of them are facing each other on a roadway.	test	['two']	['Three towers made of flashy fabric with weird heads on top of them are facing each other on a roadway.']	['Two towers']	False
+2923386532	47462	Two people wearing odd alien-like costumes, one blue and one purple, are standing in a road.	test	['two']	['Three people wearing odd alien-like costumes, one blue and one purple, are standing in a road.']	['Two people']	False
+2923386532	47464	Two people dressed as aliens encounter each other on a street.	test	['two']	['Three people dressed as aliens encounter each other on a street.']	['Two people']	False
+2925163942	47595	A man jogging with his two thumbs up in the air, while making a funny face.	test	['two']	['A man jogging with his three thumbs up in the air, while making a funny face.']	['his two thumbs']	True
+2925163942	47598	A man giving two thumbs up as he runs a race.	test	['two']	['A man giving three thumbs up as he runs a race.']	['two thumbs']	False
+2926595608	47659	Four men jumping in a basketball game	test	['four']	['Three men jumping in a basketball game']	['Four men']	True
+2934022873	47895	Two skateboarders wearing their helmets riding down a street.	test	['two']	['Three skateboarders wearing their helmets riding down a street.']	['Two skateboarders']	False
+2934022873	47896	Two downhill skateboarders round a curve while others watch.	test	['two']	['Three downhill skateboarders round a curve while others watch.']	['Two downhill skateboarders']	True
+2934022873	47897	Two skateboarders wearing helmets are going around a turn.	test	['two']	['Three skateboarders wearing helmets are going around a turn.']	['Two skateboarders']	True
+2943557287	48365	Two people are looking at a child as one of them is pushing a wheelchair on the sidewalk.	test	['two']	['Three people are looking at a child as one of them is pushing a wheelchair on the sidewalk.']	['Two people']	False
+2943557287	48367	Two people are walking past a girl who is in a card board box on a sidewalk.	test	['two']	['Three people are walking past a girl who is in a card board box on a sidewalk.']	['Two people']	False
+2957682838	48880	Two men in the US Army are in uniform and talking with another woman, who is wearing a black sweater with a purse inside of what looks like a conference room.	test	['two']	['Three men in the US Army are in uniform and talking with another woman, who is wearing a black sweater with a purse inside of what looks like a conference room.']	['Two men']	False
+2957682838	48882	A woman with long hair is talking to two men in uniform.	test	['two']	['A woman with long hair is talking to three men in uniform.']	['two men']	True
+2957682838	48883	Two army soldiers and a woman talking in an office.	test	['two']	['Three army soldiers and a woman talking in an office.']	['Two army soldiers']	False
+2957682838	48884	Two men in army uniforms stand next to a woman.	test	['two']	['Three men in army uniforms stand next to a woman.']	['Two men']	False
+2975627633	49427	Two people smile while sitting on chairs in a yard.	test	['two']	['Three people smile while sitting on chairs in a yard.']	['Two people']	False
+2978735290	49557	Two children are playing, one is jumping in the air.	test	['two']	['Three children are playing, one is jumping in the air.']	['Two children']	False
+2987121689	49796	Two young men on opposing soccer teams are competing to get the ball on a soccer field.	test	['two']	['Three young men on opposing soccer teams are competing to get the ball on a soccer field.']	['Two young men']	False
+2987121689	49797	Two soccer opponents run and fight for the soocerball on a grassy field.	test	['two']	['Three soccer opponents run and fight for the soocerball on a grassy field.']	['Two soccer opponents']	False
+2987121689	49798	Two soccer players battle for the ball during an intense match.	test	['two']	['Three soccer players battle for the ball during an intense match.']	['Two soccer players battle']	False
+2987121689	49799	Two soccer players are going after the ball.	test	['two']	['Three soccer players are going after the ball.']	['Two soccer players']	False
+2993318965	50053	Two women and a man are having a discussion at an event.	test	['two']	['Three women and a man are having a discussion at an event.']	['Two women']	False
+3005124440	50440	Two men and a woman pose with signs for Obama and Chris Gregoire.	test	['two']	['Three men and a woman pose with signs for Obama and Chris Gregoire.']	['Two men']	False
+3005124440	50441	Three people pose with their political signs out in public.	test	['three']	['Four people pose with their political signs out in public.']	['Three people']	False
+3005124440	50442	Three democrat supporters hold signs for an election.	test	['three']	['Two democrat supporters hold signs for an election.']	['Three democrat supporters']	False
+3005124440	50443	Three people smiling and holding political signs.	test	['three']	['Two people smiling and holding political signs.']	['Three people']	False
+3005124440	50444	Three people with political signs.	test	['three']	['Two people with political signs.']	['Three people']	False
+3006095077	50531	Two men wearing hats stand together and smile.	test	['two']	['Three men wearing hats stand together and smile.']	['Two men']	False
+3006095077	50532	Two men in hats pose together.	test	['two']	['Three men in hats pose together.']	['Two men']	True
+3006095077	50533	Two guys wearing jackets.	test	['two']	['Three guys wearing jackets.']	['Two guys']	True
+3006095077	50534	Two men wearing hats.	test	['two']	['Three men wearing hats.']	['Two men']	False
+3039200576	51896	Two young girls walk together down a street in front of a gas station.	test	['two']	['Three young girls walk together down a street in front of a gas station.']	['Two young girls']	True
+3039200576	51898	Two girls are walking in car wash parking lot.	test	['two']	['Three girls are walking in car wash parking lot.']	['Two girls']	False
+3039200576	51899	Two girls walk down across a parking lot.	test	['two']	['Three girls walk down across a parking lot.']	['Two girls']	False
+3083847439	53455	Two guys, one with short black hair and the other one with long blond-hair, are playing the drums.	test	['two']	['Three guys, one with short black hair and the other one with long blond-hair, are playing the drums.']	['Two guys']	False
+3083847439	53457	Two men, wearing black shirts, are playing the drums in a very urban area.	test	['two']	['Three men, wearing black shirts, are playing the drums in a very urban area.']	['Two men']	True
+3083847439	53458	Two young men in black tank tops playing on a set of drums.	test	['two']	['Three young men in black tank tops playing on a set of drums.']	['Two young men']	False
+3083847439	53459	Two men wearing black wife beater's playing the drums.	test	['two']	"[""Three men wearing black wife beater's playing the drums.""]"	['Two men']	True
+3083913737	53460	Three people are in a field picking something, and one of them has a big hat with a red bow.	test	['three']	['Four people are in a field picking something, and one of them has a big hat with a red bow.']	['Three people']	False
+3083913737	53461	Three farmers harvest rice out in a rice field.	test	['three']	['Four farmers harvest rice out in a rice field.']	['Three farmers']	False
+3083913737	53462	Three workers bent over pulling grass.	test	['three']	['Four workers bent over pulling grass.']	['Three workers']	True
+3083913737	53464	Three people are harvesting crops.	test	['three']	['Two people are harvesting crops.']	['Three people']	False
+3084001782	53468	Two women and a man are looking at a book.	test	['two']	['Three women and a man are looking at a book.']	['Two women']	False
+3084001782	53469	Three people are gathered for a picture.	test	['three']	['Two people are gathered for a picture.']	['Three people']	False
+3086526292	53660	You can see the bottom halves of three boys standing on a sidewalk with silly string sprayed everywhere	test	['three']	['You can see the bottom halves of four boys standing on a sidewalk with silly string sprayed everywhere']	['three boys']	True
+3086526292	53661	There are three people in jeans and shirts standing outside with spray cans.	test	['three']	['There are two people in jeans and shirts standing outside with spray cans.']	['three people']	False
+3086526292	53662	Three children's legs are shown as they stand near a mess of silly string.	test	['three']	"[""Four children's legs are shown as they stand near a mess of silly string.""]"	"[""Three children's legs""]"	False
+3086526292	53663	Three people standing near a door, with silly string cans.	test	['three']	['Two people standing near a door, with silly string cans.']	['Three people']	True
+3086526292	53664	Three kids play with silly string.	test	['three']	['Two kids play with silly string.']	['Three kids']	False
+313385842	55621	Two males seem to be conversing while standing in front of a truck's back, and behind a metal item, while four people stand around them.	test	['two', 'four']	"[""Three males seem to be conversing while standing in front of a truck's back, and behind a metal item, while four people stand around them."", ""Two males seem to be conversing while standing in front of a truck's back, and behind a metal item, while three people stand around them.""]"	['Two males', 'four people']	False
+3148193539	56095	Three boys wearing green shirts and tan pants pose at the top of a slide.	test	['three']	['Two boys wearing green shirts and tan pants pose at the top of a slide.']	['Three boys']	True
+3148193539	56096	Three boys in green shirts and khaki pants are at the top of a slide.	test	['three']	['Four boys in green shirts and khaki pants are at the top of a slide.']	['Three boys']	False
+3148193539	56097	Three boys all wearing green shirts are climbing on a slide.	test	['three']	['Two boys all wearing green shirts are climbing on a slide.']	['Three boys']	True
+3148193539	56098	Three children are posing on a playground slide.	test	['three']	['Four children are posing on a playground slide.']	['Three children']	False
+3148193539	56099	Three boys climb on a slide	test	['three']	['Four boys climb on a slide']	['Three boys']	False
+3149894951	56170	Circus performer gesturing upward while hold a dog between his legs, with a man and two goats in the background.	test	['two']	['Circus performer gesturing upward while hold a dog between his legs, with a man and three goats in the background.']	['two goats']	False
+3149894951	56171	An entertainer stand on one leg, holding up a dog as two goats stand on pedestals in the background.	test	['two']	['An entertainer stand on one leg, holding up a dog as three goats stand on pedestals in the background.']	['two goats']	True
+3167453543	56815	Five woman gathered to play woodwind and string instruments in someone's living room.	test	['five']	"[""Six woman gathered to play woodwind and string instruments in someone's living room.""]"	['Five woman']	True
+3167453543	56817	Five musicians, of varying ages, play together in a living room.	test	['five']	['Six musicians, of varying ages, play together in a living room.']	['Five musicians']	False
+3167453543	56819	Five people are playing classical musical.	test	['five']	['Six people are playing classical musical.']	['Five people']	True
+317383917	57115	Two large black dogs, one small black dog, and one large white dog are standing in some snow.	test	['two']	['Three large black dogs, one small black dog, and one large white dog are standing in some snow.']	['Two large black dogs']	True
+317383917	57116	Two black dogs, a black puppy, and a white dog in the snow.	test	['two']	['Three black dogs, a black puppy, and a white dog in the snow.']	['Two black dogs']	False
+317383917	57117	Three black dogs and a white dog are standing in the snow.	test	['three']	['Four black dogs and a white dog are standing in the snow.']	['Three black dogs']	True
+317383917	57119	Four dogs stand in the snow.	test	['four']	['Five dogs stand in the snow.']	['Four dogs']	False
+3182495095	57581	Four kids sit on the back of a guy in a banana suit while he does push ups.	test	['four']	['Three kids sit on the back of a guy in a banana suit while he does push ups.']	['Four kids']	False
+3182495095	57582	A man in a banana custom is carrying four children on his back.	test	['four']	['A man in a banana custom is carrying five children on his back.']	['four children']	True
+319750026	58281	Six men outside are passing each other by while looking at each other.	test	['six']	['Five men outside are passing each other by while looking at each other.']	['Six men']	False
+3222702477	59452	Three men playing professional soccer while many people in the stands watching	test	['three']	['Four men playing professional soccer while many people in the stands watching']	['Three men']	True
+3224375029	59531	Four females of Asian descent are wearing golden dresses while performing point ballet.	test	['four']	['Three females of Asian descent are wearing golden dresses while performing point ballet.']	['Four females']	False
+3224375029	59533	Four asian women dressed in yellow dresses perform a ballet.	test	['four']	['Five asian women dressed in yellow dresses perform a ballet.']	['Four asian women']	False
+3224375029	59534	Four women in yellow dresses are performing a ballet.	test	['four']	['Three women in yellow dresses are performing a ballet.']	['Four women']	False
+3232994074	59897	Two people are constructing a child's puzzle game.	test	['two']	"[""Three people are constructing a child's puzzle game.""]"	['Two people']	False
+3240570205	60150	One young boy in a yellow long-sleeved shirt and jeans sitting down, with five adults in front of him, one operating a video camera.	test	['five']	['One young boy in a yellow long-sleeved shirt and jeans sitting down, with four adults in front of him, one operating a video camera.']	['five adults']	True
+3246281818	60423	Two young children scaling a wall with harnesses on.	test	['two']	['Three young children scaling a wall with harnesses on.']	['Two young children']	False
+3246281818	60424	Kids scale a wall as two other people watch.	test	['two']	['Kids scale a wall as three other people watch.']	['two other people']	True
+3257107194	60921	Two men trying to hoist themselves up from the water on to a walkway made of tires.	test	['two']	['Three men trying to hoist themselves up from the water on to a walkway made of tires.']	['Two men']	False
+3257107194	60922	Two men climb onto tires while sitting in the muddy water.	test	['two']	['Three men climb onto tires while sitting in the muddy water.']	['Two men']	False
+3257107194	60923	Two men are playing with tires in muddy water.	test	['two']	['Three men are playing with tires in muddy water.']	['Two men']	True
+3257107194	60924	Two boys hanging off a tire dock.	test	['two']	['Three boys hanging off a tire dock.']	['Two boys']	True
+3259992164	61061	Two men are performing on a sidewalk as a crowd watches	test	['two']	['Three men are performing on a sidewalk as a crowd watches']	['Two men']	False
+3259992164	61062	Two men dancing on a checkerboard in front of a crowd	test	['two']	['Three men dancing on a checkerboard in front of a crowd']	['Two men']	False
+3259992164	61064	Two men breakdancing, with a crowd looking on.	test	['two']	['Three men breakdancing, with a crowd looking on.']	['Two men']	False
+3277162496	61780	Three dogs playing together in a grassy field with trees in the background	test	['three']	['Two dogs playing together in a grassy field with trees in the background']	['Three dogs']	False
+3277162496	61781	Two black and one white dog interacting in the grass.	test	['two']	['Three black and one white dog interacting in the grass.']	['two']	True
+3277162496	61782	Three dogs play with each other out in the field.	test	['three']	['Two dogs play with each other out in the field.']	['Three dogs']	True
+3277162496	61783	Three dogs wrestle in the grass.	test	['three']	['Two dogs wrestle in the grass.']	['Three dogs wrestle']	False
+3277162496	61784	Three dogs playing on grass.	test	['three']	['Two dogs playing on grass.']	['Three dogs']	False
+3278581900	61831	Two small children walk down a sandy beach.	test	['two']	['Three small children walk down a sandy beach.']	['Two small children']	True
+3278581900	61832	Two kids run through gray sand.	test	['two']	['Three kids run through gray sand.']	['Two kids']	True
+3278581900	61833	Two young children are on sand.	test	['two']	['Three young children are on sand.']	['Two young children']	False
+3278581900	61834	Two smiling kids walking on sand	test	['two']	['Three smiling kids walking on sand']	['Two smiling kids']	True
+3283368342	62010	Four dog owners stand with their three prize winning dogs.	test	['three', 'four']	['Four dog owners stand with their two prize winning dogs.', 'Five dog owners stand with their three prize winning dogs.']	['their three prize', 'Four dog owners']	True
+3283368342	62011	These four people are standing outdoors, with 3 dogs.	test	['four']	['These three people are standing outdoors, with 3 dogs.']	['These four people']	False
+3283368342	62013	Four people stand with their dogs in a field.	test	['four']	['Three people stand with their dogs in a field.']	['Four people']	True
+3283368342	62014	Four people holding three dogs in a field.	test	['three', 'four']	['Four people holding two dogs in a field.', 'Five people holding three dogs in a field.']	['three dogs', 'Four people']	False
+3294830188	62430	Four birds are chasing another bird which has a piece of food in its mouth	test	['four']	['Three birds are chasing another bird which has a piece of food in its mouth']	['Four birds']	True
+3294830188	62431	A seagull flies under another with food while three others follow.	test	['three']	['A seagull flies under another with food while four others follow.']	['three others']	True
+3298457064	62542	Two men ride through farm land as they guide their mule powered trailer.	test	['two']	['Three men ride through farm land as they guide their mule powered trailer.']	['Two men']	True
+3298457064	62544	Two men are riding a large wagon pulled by a donkey.	test	['two']	['Three men are riding a large wagon pulled by a donkey.']	['Two men']	True
+330325191	62712	Two people stand at the peak of a mountain.	test	['two']	['Three people stand at the peak of a mountain.']	['Two people']	False
+330325191	62713	Two people at the top of a mountain.	test	['two']	['Three people at the top of a mountain.']	['Two people']	False
+3329961466	63785	Three guys smiling for camera and showing off their muscles.	test	['three']	['Two guys smiling for camera and showing off their muscles.']	['Three guys']	False
+3329961466	63786	Three men making happy gestures posing for a photograph	test	['three']	['Two men making happy gestures posing for a photograph']	['Three men']	True
+3329961466	63788	Three men are cheering in kitchen.	test	['three']	['Two men are cheering in kitchen.']	['Three men']	False
+3329961466	63789	Three men smiling and gesturing.	test	['three']	['Two men smiling and gesturing.']	['Three men']	False
+3339751521	64266	Four people relaxing on a grassy hill overlooking a rocky valley.	test	['four']	['Five people relaxing on a grassy hill overlooking a rocky valley.']	['Four people']	False
+3339751521	64267	A man and three women with backpacks, sitting on a mountain.	test	['three']	['A man and two women with backpacks, sitting on a mountain.']	['three women']	False
+3339751521	64269	Four people are sitting at the top of a hill.	test	['four']	['Three people are sitting at the top of a hill.']	['Four people']	False
+3348384389	64637	Two dogs are on a white carpet with one of the dogs showing its fangs.	test	['two']	['Three dogs are on a white carpet with one of the dogs showing its fangs.']	['Two dogs']	True
+3348384389	64639	Two dogs, one with mouth open.	test	['two']	['Three dogs, one with mouth open.']	['Two dogs']	False
+3354474353	64970	Two dogs walk in the snow, the larger dog has a fish in his mouth.	test	['two']	['Three dogs walk in the snow, the larger dog has a fish in his mouth.']	['Two dogs']	True
+3354474353	64971	There are two dogs in the snow and one has something in his mouth.	test	['two']	['There are three dogs in the snow and one has something in his mouth.']	['two dogs']	False
+3354474353	64972	Two dogs, one holding something in its mouth, in the snow.	test	['two']	['Three dogs, one holding something in its mouth, in the snow.']	['Two dogs']	True
+3354474353	64973	Two dogs are playing in the snow.	test	['two']	['Three dogs are playing in the snow.']	['Two dogs']	False
+3354474353	64974	Two dogs on the beach.	test	['two']	['Three dogs on the beach.']	['Two dogs']	False
+3373481779	65851	Two hockey players wearing yellow and black uniforms skate on the ice.	test	['two']	['Three hockey players wearing yellow and black uniforms skate on the ice.']	['Two hockey players']	False
+3373481779	65852	Two people in hockey uniforms on the ice.	test	['two']	['Three people in hockey uniforms on the ice.']	['Two people']	False
+3373481779	65854	Two ice hockey players	test	['two']	['Three ice hockey players']	['Two ice hockey players']	True
+3391716619	66510	An apparently homeless black man with mismatched shoes, two pairs of pants, and a heavy jacket tries to warm his hands while sitting on a door step.	test	['two']	['An apparently homeless black man with mismatched shoes, three pairs of pants, and a heavy jacket tries to warm his hands while sitting on a door step.']	['two pairs']	False
+3400385314	66944	Two guys and a girl smiling.	test	['two']	['Three guys and a girl smiling.']	['Two guys']	False
+3424605029	67833	The two kids are playing at the playground.	test	['two']	['The three kids are playing at the playground.']	['The two kids']	False
+3430607596	68147	A boy in a red swimsuit jumps into the water to join two people.	test	['two']	['A boy in a red swimsuit jumps into the water to join three people.']	['two people']	False
+3432637363	68250	Turbaned man and two police officers stand in front of a white canopy and a pile of garbage bags	test	['two']	['Turbaned man and three police officers stand in front of a white canopy and a pile of garbage bags']	['two police officers']	False
+3432637363	68251	A man in a turban looks at two police officers who are near a tent and a pile of refuse.	test	['two']	['A man in a turban looks at three police officers who are near a tent and a pile of refuse.']	['two police officers']	False
+3432637363	68252	Two officers with orange jackets stand outside a white tent with onlookers.	test	['two']	['Three officers with orange jackets stand outside a white tent with onlookers.']	['Two officers']	True
+3432637363	68253	Two police officers observe while a crowd gathers outside a white tarp.	test	['two']	['Three police officers observe while a crowd gathers outside a white tarp.']	['Two police officers']	True
+3441959314	68620	Two men, one in a green jacket and one in a red jacket, are trying to build a fire in the woods.	test	['two']	['Three men, one in a green jacket and one in a red jacket, are trying to build a fire in the woods.']	['Two men']	True
+3441959314	68621	Two people standing next to a tree on the ground.	test	['two']	['Three people standing next to a tree on the ground.']	['Two people']	True
+3441959314	68622	Two men are wearing their jackets outside.	test	['two']	['Three men are wearing their jackets outside.']	['Two men']	False
+3441959314	68623	Two men trying to build a fire.	test	['two']	['Three men trying to build a fire.']	['Two men']	True
+3441959314	68624	Two men chilling by a campsite.	test	['two']	['Three men chilling by a campsite.']	['Two men']	False
+3443404125	68720	Two older men are having a discussion outdoors in an area with stone walls and floor.	test	['two']	['Three older men are having a discussion outdoors in an area with stone walls and floor.']	['Two older men']	False
+3443404125	68721	Two men sit casually in folding chairs, gesturing, and speaking to one another.	test	['two']	['Three men sit casually in folding chairs, gesturing, and speaking to one another.']	['Two men']	False
+3443404125	68722	Two man sit and chat on a stone lanai surrounded by plants.	test	['two']	['Three man sit and chat on a stone lanai surrounded by plants.']	['Two man']	False
+3443404125	68723	Two men sit talking near a stone building.	test	['two']	['Three men sit talking near a stone building.']	['Two men']	False
+3443404125	68724	Two old men having a conversation.	test	['two']	['Three old men having a conversation.']	['Two old men']	False
+3446941415	68853	Two young girls pose for a picture with one carrying the other.	test	['two']	['Three young girls pose for a picture with one carrying the other.']	['Two young girls']	False
+3456488632	69186	Two people are kissing on a sidewalk in front of a limo while people walk by.	test	['two']	['Three people are kissing on a sidewalk in front of a limo while people walk by.']	['Two people']	False
+3473534758	69885	Two dogs are playing together with their mouths open.	test	['two']	['Three dogs are playing together with their mouths open.']	['Two dogs']	False
+3473534758	69886	There are two Boston terriers biting at each other.	test	['two']	['There are three Boston terriers biting at each other.']	['two Boston terriers']	True
+3473534758	69887	Two small dogs growling at each other in a dirtbed	test	['two']	['Three small dogs growling at each other in a dirtbed']	['Two small dogs']	False
+3473534758	69888	Two large dogs are fighting in a dirt field.	test	['two']	['Three large dogs are fighting in a dirt field.']	['Two large dogs']	False
+3473534758	69889	Two boxers playfully snap at each other.	test	['two']	['Three boxers playfully snap at each other.']	['Two boxers']	True
+3490867290	70671	Two women in colorful clothes sit on the ground near their cow.	test	['two']	['Three women in colorful clothes sit on the ground near their cow.']	['Two women']	False
+3490867290	70672	Two East Asian women sitting outdoors behind a cow-like animal	test	['two']	['Three East Asian women sitting outdoors behind a cow-like animal']	['Two East Asian women']	False
+3490867290	70673	Two women in India, sitting near an ox.	test	['two']	['Three women in India, sitting near an ox.']	['Two women']	False
+3490867290	70674	Two people and a leashed cow at a home.	test	['two']	['Three people and a leashed cow at a home.']	['Two people']	True
+3501083764	71155	Woman in a white and gold shirt holding a baby and with three children and a man in a jacket.	test	['three']	['Woman in a white and gold shirt holding a baby and with two children and a man in a jacket.']	['three children']	False
+3501083764	71157	A black mother and five children in a rural area	test	['five']	['A black mother and six children in a rural area']	['five children']	False
+3512747808	71581	Two women are holding hands over a table and smiling at the camera.	test	['two']	['Three women are holding hands over a table and smiling at the camera.']	['Two women']	False
+3512747808	71582	Two women sitting at a table with their hands together.	test	['two']	['Three women sitting at a table with their hands together.']	['Two women']	False
+3512747808	71583	Two women are smiling while sitting at the table.	test	['two']	['Three women are smiling while sitting at the table.']	['Two women']	False
+3512747808	71584	Two women are sitting at a table.	test	['two']	['Three women are sitting at a table.']	['Two women']	False
+3514278386	71668	Two girls participate in a softball game.	test	['two']	['Three girls participate in a softball game.']	['Two girls']	False
+3514278386	71669	Two girls playing in a game of softball.	test	['two']	['Three girls playing in a game of softball.']	['Two girls']	True
+3525403875	72170	The two dogs, one with a tennis ball in its mouth, are running through tall grass.	test	['two']	['The three dogs, one with a tennis ball in its mouth, are running through tall grass.']	['The two dogs']	False
+3525403875	72172	Two dogs walking through grass with the white one carrying a yellow ball in mouth.	test	['two']	['Three dogs walking through grass with the white one carrying a yellow ball in mouth.']	['Two dogs']	False
+3525403875	72173	Two dogs, one holding a ball.	test	['two']	['Three dogs, one holding a ball.']	['Two dogs']	False
+3525403875	72174	Two dogs playing with a ball.	test	['two']	['Three dogs playing with a ball.']	['Two dogs']	False
+3527184455	72265	A man and a woman holding two young boys are sitting on a park bench, posing for a photograph.	test	['two']	['A man and a woman holding three young boys are sitting on a park bench, posing for a photograph.']	['two young boys']	False
+3527184455	72266	A man, woman, and two young boys are sitting on a bench with flowers in the background.	test	['two']	['A man, woman, and three young boys are sitting on a bench with flowers in the background.']	['two young boys']	False
+3527184455	72267	There is a man, woman and two boys sitting on a bench.	test	['two']	['There is a man, woman and three boys sitting on a bench.']	['two boys']	False
+3532476966	72451	Three men in hats and a woman in a red shirt examine the produce presented to them by the man in the blue shirt and white hat.	test	['three']	['Four men in hats and a woman in a red shirt examine the produce presented to them by the man in the blue shirt and white hat.']	['Three men']	False
+3532476966	72452	Five people gather around a pile of potatoes and collect some to put into bags.	test	['five']	['Four people gather around a pile of potatoes and collect some to put into bags.']	['Five people']	True
+3554391279	73450	Two women, one wearing a purple shirt and the other a green shirt, are climbing their way up an electrical pole with safety equipment with onlookers.	test	['two']	['Three women, one wearing a purple shirt and the other a green shirt, are climbing their way up an electrical pole with safety equipment with onlookers.']	['Two women']	False
+3554391279	73452	Two women ascend a telephone pole with special boots and straps on their waists.	test	['two']	['Three women ascend a telephone pole with special boots and straps on their waists.']	['Two women']	False
+3554391279	73453	Two women, one wearing a purple shirt, attempt to climb a utility pole.	test	['two']	['Three women, one wearing a purple shirt, attempt to climb a utility pole.']	['Two women']	False
+3554391279	73454	Two women are strapped to a tree in some type of construction job.	test	['two']	['Three women are strapped to a tree in some type of construction job.']	['Two women']	True
+3560125106	73680	A light brown dog jumps through a ring of fire while two people watch.	test	['two']	['A light brown dog jumps through a ring of fire while three people watch.']	['two people']	True
+3565598162	73980	Two women in fluffy skirts dancing to music played by men, asking for money, while others pass them by.	test	['two']	['Three women in fluffy skirts dancing to music played by men, asking for money, while others pass them by.']	['Two women']	False
+3565598162	73981	Two women dancing on a walkway with band in the background and pedestrians walking by	test	['two']	['Three women dancing on a walkway with band in the background and pedestrians walking by']	['Two women']	True
+3565598162	73982	Two girls in puffy skirts are dancing in front of some musicians in the street.	test	['two']	['Three girls in puffy skirts are dancing in front of some musicians in the street.']	['Two girls']	False
+3565598162	73983	Two women are dancing while men play music behind them.	test	['two']	['Three women are dancing while men play music behind them.']	['Two women']	False
+3587449716	74870	Three women in bright colors and headdresses are holding love message cards.	test	['three']	['Four women in bright colors and headdresses are holding love message cards.']	['Three women']	False
+3587449716	74871	"Three women in costume are holding papers that say ""I love you""."	test	['three']	"['Two women in costume are holding papers that say ""I love you"".']"	['Three women']	False
+3587449716	74873	"Three women in elaborate costumes hold up ""I Love You"" cards."	test	['three']	"['Two women in elaborate costumes hold up ""I Love You"" cards.']"	['Three women']	True
+3587449716	74874	Three women in colorful costumes holding I love you signs.	test	['three']	['Two women in colorful costumes holding I love you signs.']	['Three women']	False
+3593392955	75101	Two dogs running away from the camera in the woods.	test	['two']	['Three dogs running away from the camera in the woods.']	['Two dogs']	True
+3593392955	75102	Two dogs run down a dirt path in the forest.	test	['two']	['Three dogs run down a dirt path in the forest.']	['Two dogs']	False
+3593392955	75103	Two dogs run on a dirt area near a forest.	test	['two']	['Three dogs run on a dirt area near a forest.']	['Two dogs']	False
+3593392955	75104	The two dogs are running into the woods.	test	['two']	['The three dogs are running into the woods.']	['The two dogs']	False
+3599392711	75305	Three young sumo wrestler students stand at attention at an award ceremony in front of a man at the microphone.	test	['three']	['Two young sumo wrestler students stand at attention at an award ceremony in front of a man at the microphone.']	['Three young sumo wrestler students']	False
+3599392711	75307	A man is presenting a certificate to three young sumo wrestlers.	test	['three']	['A man is presenting a certificate to four young sumo wrestlers.']	['three young sumo wrestlers']	True
+3599392711	75308	Three young sumo wrestlers standing and listening to an announcer	test	['three']	['Four young sumo wrestlers standing and listening to an announcer']	['Three young sumo wrestlers']	False
+3600229533	75336	Two male hikers inspect a log by the side of a forest path.	test	['two']	['Three male hikers inspect a log by the side of a forest path.']	['Two male hikers']	False
+3600229533	75338	Two men are in the woods one is looking at a log.	test	['two']	['Three men are in the woods one is looking at a log.']	['Two men']	False
+3600229533	75339	Two gentlemen outside beside a log.	test	['two']	['Three gentlemen outside beside a log.']	['Two gentlemen']	True
+3601491447	75385	A group of young men in sports uniforms from two opposing teams are in vigorous play on a grassy field.	test	['two']	['A group of young men in sports uniforms from three opposing teams are in vigorous play on a grassy field.']	['two opposing teams']	False
+3601491447	75386	Three men wearing the same black and yellow uniform are blocking another man in a red uniform.	test	['three']	['Four men wearing the same black and yellow uniform are blocking another man in a red uniform.']	['Three men']	False
+3601491447	75387	Three rugby players in black strips are pulling the player in red to the ground.	test	['three']	['Four rugby players in black strips are pulling the player in red to the ground.']	['Three rugby players']	False
+3601491447	75388	Three players bring a team opponent to the ground.	test	['three']	['Two players bring a team opponent to the ground.']	['Three players']	True
+3601491447	75389	Three men tackle someone from the opposite team.	test	['three']	['Four men tackle someone from the opposite team.']	['Three men']	True
+3608661756	75691	Two boys cross a city street while kicking a red soccer ball.	test	['two']	['Three boys cross a city street while kicking a red soccer ball.']	['Two boys']	False
+3608661756	75692	Two boys crossing a street with a red ball.	test	['two']	['Three boys crossing a street with a red ball.']	['Two boys']	False
+3608661756	75694	Two boys playing ball in the street.	test	['two']	['Three boys playing ball in the street.']	['Two boys']	False
+3612485097	75884	Two people play outdoors.	test	['two']	['Three people play outdoors.']	['Two people']	True
+363709975	76793	Three athletes holding bouquets stand on the victory podium.	test	['three']	['Two athletes holding bouquets stand on the victory podium.']	['Three athletes']	True
+363709975	76794	Three men accepting an award.	test	['three']	['Two men accepting an award.']	['Three men']	False
+3638783842	76870	Two bald ladies in red dresses and matching jewelry laugh.	test	['two']	['Three bald ladies in red dresses and matching jewelry laugh.']	['Two bald ladies']	False
+3638783842	76871	Two bald ladies are wearing red dresses.	test	['two']	['Three bald ladies are wearing red dresses.']	['Two bald ladies']	True
+3638783842	76872	Two formally dressed, bald older women	test	['two']	['Three formally dressed, bald older women']	['two']	False
+3638783842	76873	Two bald drag queens in red dresses	test	['two']	['Three bald drag queens in red dresses']	['Two bald drag queens']	False
+3638783842	76874	Two bald people in red clothes	test	['two']	['Three bald people in red clothes']	['Two bald people']	True
+3647826834	77285	A woman is playing with two children on a seesaw in a playground.	test	['two']	['A woman is playing with three children on a seesaw in a playground.']	['two children']	True
+3647826834	77286	A woman playing with two young boys at a park	test	['two']	['A woman playing with three young boys at a park']	['two young boys']	False
+3647826834	77287	A woman and three kids play at a park.	test	['three']	['A woman and two kids play at a park.']	['three kids']	False
+3647826834	77288	Woman on four way seesaw with 2 kids.	test	['four']	['Woman on three way seesaw with 2 kids.']	['four way seesaw']	False
+3647826834	77289	A woman and three children.	test	['three']	['A woman and two children.']	['three children']	False
+3660516586	77780	Four people are playing football by a body of water in partly cloudy weather.	test	['four']	['Five people are playing football by a body of water in partly cloudy weather.']	['Four people']	False
+3660516586	77782	Four people are playing soccer on a beach.	test	['four']	['Three people are playing soccer on a beach.']	['Four people']	False
+3665179773	77940	Two teenage girls hugging, one wearing a bicycle helmet, with cyclists in the background.	test	['two']	['Three teenage girls hugging, one wearing a bicycle helmet, with cyclists in the background.']	['Two teenage girls']	False
+3665179773	77944	Two girls hugging.	test	['two']	['Three girls hugging.']	['Two girls']	True
+366548880	77960	Two large dogs, one light colored and one dark, running through snowy terrain.	test	['two']	['Three large dogs, one light colored and one dark, running through snowy terrain.']	['Two large dogs']	False
+366548880	77961	Two dogs jump in a snowy field with snowcapped rocks in the background	test	['two']	['Three dogs jump in a snowy field with snowcapped rocks in the background']	['Two dogs']	False
+366548880	77962	Two dogs running and jumping through a snowy area.	test	['two']	['Three dogs running and jumping through a snowy area.']	['Two dogs']	True
+366548880	77963	Two dogs leap through snowy grass and rocks.	test	['two']	['Three dogs leap through snowy grass and rocks.']	['Two dogs']	False
+366548880	77964	Two medium sized dogs run across the snow.	test	['two']	['Three medium sized dogs run across the snow.']	['Two medium sized dogs']	False
+3687062281	78795	Two people sit at a table outside against a wall and make faces.	test	['two']	['Three people sit at a table outside against a wall and make faces.']	['Two people']	True
+3687062281	78798	Two older people sit at an outdoor cafe table.	test	['two']	['Three older people sit at an outdoor cafe table.']	['Two older people']	False
+3687062281	78799	Two older people drinking coffee outside.	test	['two']	['Three older people drinking coffee outside.']	['Two older people']	False
+3688797852	78870	Two smiling men dressed in provocative leather outfits walk in a parade.	test	['two']	['Three smiling men dressed in provocative leather outfits walk in a parade.']	['Two smiling men']	False
+3688797852	78873	Two guys with nipple piercings are smiling.	test	['two']	['Three guys with nipple piercings are smiling.']	['Two guys']	False
+3688797852	78874	Two guys in leather, standing in a crowd.	test	['two']	['Three guys in leather, standing in a crowd.']	['Two guys']	True
+3694555931	79170	Two woman are mud wrestling in a kiddie pool.	test	['two']	['Three woman are mud wrestling in a kiddie pool.']	['Two woman']	False
+3694555931	79171	Two women mud-wrestle in a blue wading-pool	test	['two']	['Three women mud-wrestle in a blue wading-pool']	['Two women mud-wrestle']	True
+3694555931	79172	Two girls playing in mud in a small pool.	test	['two']	['Three girls playing in mud in a small pool.']	['Two girls']	False
+3694555931	79173	Two people mud wrestling.	test	['two']	['Three people mud wrestling.']	['Two people mud wrestling']	False
+3694555931	79174	Two women in a mudfight.	test	['two']	['Three women in a mudfight.']	['Two women']	False
+3701291852	79390	Two people are silhouetted against a lake reflecting a painted sky.	test	['two']	['Three people are silhouetted against a lake reflecting a painted sky.']	['Two people']	True
+3701291852	79392	Two people silhouetted against a lake at sunset.	test	['two']	['Three people silhouetted against a lake at sunset.']	['Two people']	True
+3701291852	79393	Two figures are walking by a pond.	test	['two']	['Three figures are walking by a pond.']	['Two figures']	True
+3701291852	79394	Two children are walking by a pond	test	['two']	['Three children are walking by a pond']	['Two children']	True
+3715669736	80021	Two girls (one dressed in blue, and one dressed in pink) are racing one another on rollerskates.	test	['two']	['Three girls (one dressed in blue, and one dressed in pink) are racing one another on rollerskates.']	['Two girls']	False
+3715669736	80022	Two woman, one in red and the other in blue, race each other on rollerblades.	test	['two']	['Three woman, one in red and the other in blue, race each other on rollerblades.']	['Two woman']	False
+3715669736	80023	Two women, one in blue and one in red speed skating on a basketball court.	test	['two']	['Three women, one in blue and one in red speed skating on a basketball court.']	['Two women']	False
+3715669736	80024	Two women one in blue the other in pink rollerskating.	test	['two']	['Three women one in blue the other in pink rollerskating.']	['Two women']	False
+3716244806	80054	The four people sit on a pile of rocks.	test	['four']	['The five people sit on a pile of rocks.']	['The four people']	True
+3717309680	80091	Four motorcycles are racing on a dirt track.	test	['four']	['Five motorcycles are racing on a dirt track.']	['Four motorcycles']	True
+3717309680	80092	Four motorcycle racers are on a dirt track.	test	['four']	['Three motorcycle racers are on a dirt track.']	['Four motorcycle racers']	False
+3722006169	80316	Three men are examining a red and white race car.	test	['three']	['Four men are examining a red and white race car.']	['Three men']	True
+3722006169	80317	Three men standing around a car on a racetrack.	test	['three']	['Four men standing around a car on a racetrack.']	['Three men']	False
+3722504168	80350	Two men wearing earmuffs inspect a racing car's engine on an asphalt track.	test	['two']	"[""Three men wearing earmuffs inspect a racing car's engine on an asphalt track.""]"	['Two men']	True
+3722504168	80351	Two men work under the hood of a white race car.	test	['two']	['Three men work under the hood of a white race car.']	['Two men']	False
+3722504168	80352	Two mechanics are fixing a racing white car.	test	['two']	['Three mechanics are fixing a racing white car.']	['Two mechanics']	False
+3722504168	80353	Two mechanics working on a drag racing car.	test	['two']	['Three mechanics working on a drag racing car.']	['Two mechanics']	True
+3722504168	80354	Two men under the body of a drag car.	test	['two']	['Three men under the body of a drag car.']	['Two men']	True
+3724738804	80450	Three girls wearing goggles are jumping into a swimming pool together.	test	['three']	['Four girls wearing goggles are jumping into a swimming pool together.']	['Three girls']	True
+3724738804	80452	A woman and three children are jumping into a swimming pool.	test	['three']	['A woman and two children are jumping into a swimming pool.']	['three children']	False
+3724738804	80454	Three girls jump into a pool.	test	['three']	['Four girls jump into a pool.']	['Three girls']	False
+3780768589	81905	Four different men sitting outside on cement steps in front of a building.	test	['four']	['Three different men sitting outside on cement steps in front of a building.']	['Four different men']	False
+3780768589	81906	Four men are sitting on the stoop of a stone church.	test	['four']	['Three men are sitting on the stoop of a stone church.']	['Four men']	False
+3780768589	81907	Four black men are sitting on the steps of a church.	test	['four']	['Three black men are sitting on the steps of a church.']	['Four black men']	True
+3780768589	81909	Four men sit on a church's steps.	test	['four']	"[""Five men sit on a church's steps.""]"	['Four men']	True
+378434971	81976	A yellow construction vehicle is posed near two buildings, its arm engaged with a pile of rubble.	test	['two']	['A yellow construction vehicle is posed near three buildings, its arm engaged with a pile of rubble.']	['two buildings']	False
+3799701220	82275	Two middle-aged Asian men with mustaches working with animal hides in a shop.	test	['two']	['Three middle-aged Asian men with mustaches working with animal hides in a shop.']	['Two middle-aged Asian men']	True
+3799701220	82276	Two men are crafting items in a workshop with tools.	test	['two']	['Three men are crafting items in a workshop with tools.']	['Two men']	True
+3799701220	82277	Two men working in a small factory.	test	['two']	['Three men working in a small factory.']	['Two men']	True
+3799701220	82278	Two men are working in a shop.	test	['two']	['Three men are working in a shop.']	['Two men']	False
+3799701220	82279	Two men are busy working.	test	['two']	['Three men are busy working.']	['Two men']	False
+3826425403	83001	Two women are eating seated on the grass with hiking gear.	test	['two']	['Three women are eating seated on the grass with hiking gear.']	['Two women']	True
+3827317206	83192	A woman wearing a black hat grinds flour using two stones.	test	['two']	['A woman wearing a black hat grinds flour using three stones.']	['two stones']	True
+38541144	83698	A man in a karate is performing in front of two judges.	test	['two']	['A man in a karate is performing in front of three judges.']	['two judges']	False
+388837010	84440	Two children looking at horses through a small fence.	test	['two']	['Three children looking at horses through a small fence.']	['Two children']	False
+388837010	84442	Two children feeding horses through a fence.	test	['two']	['Three children feeding horses through a fence.']	['Two children']	True
+388837010	84443	Two children pet horses in a field.	test	['two']	['Three children pet horses in a field.']	['Two children']	False
+3913884179	84949	Two women having a conversation in a city area.	test	['two']	['Three women having a conversation in a city area.']	['Two women']	False
+3914087743	84960	Two males in cowboy hats, one a young man in a dark blue shirt and the other, an adolescent in a light pink shirt, are preparing for something in a ranch or fair setting.	test	['two']	['Three males in cowboy hats, one a young man in a dark blue shirt and the other, an adolescent in a light pink shirt, are preparing for something in a ranch or fair setting.']	['Two males']	False
+3914087743	84961	Two young adults at a rodeo, one is helping the other to fix an injury to his arm after a brief ride.	test	['two']	['Three young adults at a rodeo, one is helping the other to fix an injury to his arm after a brief ride.']	['Two young adults']	True
+3914751903	84980	A red vehicle is being reflected in a store window while two casually dressed middle-aged men walk and converse.	test	['two']	['A red vehicle is being reflected in a store window while three casually dressed middle-aged men walk and converse.']	['two casually dressed middle-aged men']	True
+3914751903	84982	Two older men are standing outside talking.	test	['two']	['Three older men are standing outside talking.']	['Two older men']	True
+3914751903	84984	Two men converse along the sidewalk.	test	['two']	['Three men converse along the sidewalk.']	['Two men']	False
+3927465948	85155	Two children and a woman are sitting on a sofa, one of the children has a camera.	test	['two']	['Three children and a woman are sitting on a sofa, one of the children has a camera.']	['Two children']	False
+3927465948	85156	Three Asian children sitting on a couch with tapestries hanging in the background.	test	['three']	['Four Asian children sitting on a couch with tapestries hanging in the background.']	['Three Asian children']	False
+3927465948	85157	An Asian woman and her two children sit at a table doing crafts.	test	['two']	['An Asian woman and her three children sit at a table doing crafts.']	['her two children']	False
+3927465948	85158	A woman in a red shirt sitting with two young girls in dresses.	test	['two']	['A woman in a red shirt sitting with three young girls in dresses.']	['two young girls']	False
+3927465948	85159	Three young girls in arts and crafts room.	test	['three']	['Four young girls in arts and crafts room.']	['Three young girls']	True
+39341489	85287	Two friends happily cheer each other at a restaurant.	test	['two']	['Three friends happily cheer each other at a restaurant.']	['Two friends']	False
+3969232921	86010	Two law enforcement officers standing near one another with an open air market in the background.	test	['two']	['Three law enforcement officers standing near one another with an open air market in the background.']	['Two law enforcement officers']	False
+3969232921	86011	Two middle-aged police officers watch over a parking lot, at night.	test	['two']	['Three middle-aged police officers watch over a parking lot, at night.']	['Two middle-aged police officers']	False
+3969232921	86013	Two police officers on duty watching over things.	test	['two']	['Three police officers on duty watching over things.']	['Two police officers']	False
+3969232921	86014	Two policemen standing in a parking lot.	test	['two']	['Three policemen standing in a parking lot.']	['Two policemen']	True
+3970114165	86040	Two people with their hands expressively out towards a sporting event's field.	test	['two']	"[""Three people with their hands expressively out towards a sporting event's field.""]"	['Two people']	True
+3970114165	86043	Two men in blue shirts looking at a soccer game.	test	['two']	['Three men in blue shirts looking at a soccer game.']	['Two men']	True
+3970114165	86044	Two fans are cheering at a sporting event.	test	['two']	['Three fans are cheering at a sporting event.']	['Two fans']	False
+3999246475	86730	Two musicians are entertaining people in a city park, the flute player is wearing a blue feather boa.	test	['two']	['Three musicians are entertaining people in a city park, the flute player is wearing a blue feather boa.']	['Two musicians']	False
+400598822	86880	Two men are barbecuing their food while another prepares the meat.	test	['two']	['Three men are barbecuing their food while another prepares the meat.']	['Two men']	False
+400598822	86884	Two men are cooking meat on the grill.	test	['two']	['Three men are cooking meat on the grill.']	['Two men']	True
+4031513473	87340	Two men talking and observing fruit that's on show and for sale at an open fruit market while another woman is also observing the wares.	test	['two']	"[""Three men talking and observing fruit that's on show and for sale at an open fruit market while another woman is also observing the wares.""]"	['Two men']	False
+4031513473	87342	There are two men standing beside a market of fruits and vegetables.	test	['two']	['There are three men standing beside a market of fruits and vegetables.']	['two men']	False
+4031513473	87343	Two men selling fruit at a fruit market.	test	['two']	['Three men selling fruit at a fruit market.']	['Two men']	False
+405556084	87865	Two men are sitting in white chairs next to a blue door.	test	['two']	['Three men are sitting in white chairs next to a blue door.']	['Two men']	False
+405556084	87866	Two men in white plastic chairs sitting in a doorway.	test	['two']	['Three men in white plastic chairs sitting in a doorway.']	['Two men']	False
+405556084	87867	Two elderly men converse in an run-down building.	test	['two']	['Three elderly men converse in an run-down building.']	['Two elderly men']	False
+405556084	87868	Two men sitting and talking to each other.	test	['two']	['Three men sitting and talking to each other.']	['Two men']	False
+405556084	87869	Two men are sitting on white chairs.	test	['two']	['Three men are sitting on white chairs.']	['Two men']	True
+407569668	88275	There are two men and one female sitting down and looking at their laptops in front of a window.	test	['two']	['There are three men and one female sitting down and looking at their laptops in front of a window.']	['two men']	True
+407569668	88276	Three people at with their backs to the camera at an internet bar.	test	['three']	['Four people at with their backs to the camera at an internet bar.']	['Three people']	True
+407569668	88277	Three people are sitting at a counter using laptop computers.	test	['three']	['Four people are sitting at a counter using laptop computers.']	['Three people']	True
+407569668	88278	Three people work on their laptops inside a store.	test	['three']	['Four people work on their laptops inside a store.']	['Three people']	False
+4089787993	88570	A cat observing two little rabbits in a box of hay inside an wire enclosure, while a woman in a white sweater looks on.	test	['two']	['A cat observing three little rabbits in a box of hay inside an wire enclosure, while a woman in a white sweater looks on.']	['two little rabbits']	False
+4089787993	88571	A woman sits in a caged in area with a cat and two bunnies.	test	['two']	['A woman sits in a caged in area with a cat and three bunnies.']	['two bunnies']	False
+4089787993	88572	A woman watching over her two bunnies and curious cat.	test	['two']	['A woman watching over her three bunnies and curious cat.']	['her two bunnies']	False
+4089787993	88573	An old woman watches a cat investigates two rabbits.	test	['two']	['An old woman watches a cat investigates three rabbits.']	['two rabbits']	False
+4093460759	88665	Three young women face each other while sitting on red plush chairs.	test	['three']	['Four young women face each other while sitting on red plush chairs.']	['Three young women']	True
+4093460759	88666	Three people on comfortable seating in a waiting room.	test	['three']	['Two people on comfortable seating in a waiting room.']	['Three people']	False
+4093460759	88668	Three college-age women sit in upholstered chairs.	test	['three']	['Four college-age women sit in upholstered chairs.']	['Three college-age women']	False
+4093460759	88669	Three girls talking in a lobby.	test	['three']	['Four girls talking in a lobby.']	['Three girls']	False
+4103236953	88861	Six children, sitting on a step with notepads and crayons.	test	['six']	['Five children, sitting on a step with notepads and crayons.']	['Six children']	False
+4103236953	88862	Six children are sitting around taking notes together.	test	['six']	['Five children are sitting around taking notes together.']	['Six children']	False
+411216802	89115	Three dogs in different shades of brown and white biting and licking each other.	test	['three']	['Two dogs in different shades of brown and white biting and licking each other.']	['Three dogs']	False
+411216802	89116	Two dogs playfully bite a third dog, which has its tongue sticking out.	test	['two']	['Three dogs playfully bite a third dog, which has its tongue sticking out.']	['Two dogs']	True
+411216802	89117	Three small puppies bite and play together in the grass.	test	['three']	['Two small puppies bite and play together in the grass.']	['Three small puppies']	False
+411216802	89118	Two dogs biting another dog in a field.	test	['two']	['Three dogs biting another dog in a field.']	['Two dogs']	True
+411216802	89119	Three dogs affectionately playing	test	['three']	['Two dogs affectionately playing']	['Three dogs']	True
+415755815	89890	For people in black pants and white martial arts shirts with belts hold a pose with both arms raised while three casually dressed me look on from a door on the left.	test	['three']	['For people in black pants and white martial arts shirts with belts hold a pose with both arms raised while four casually dressed me look on from a door on the left.']	['three']	False
+415755815	89892	Four men doing a martial arts stance in front of onlookers.	test	['four']	['Five men doing a martial arts stance in front of onlookers.']	['Four men']	True
+4161829222	89986	A man in a uniform walking on a street with two cars and a tree.	test	['two']	['A man in a uniform walking on a street with three cars and a tree.']	['two cars']	True
+4200930361	90733	Two men read a bunch of colorful notes laid out on a table.	test	['two']	['Three men read a bunch of colorful notes laid out on a table.']	['Two men']	False
+42348693	91251	Two men are sitting at a table in a restaurant, one smoking and one reading a newspaper.	test	['two']	['Three men are sitting at a table in a restaurant, one smoking and one reading a newspaper.']	['Two men']	False
+42348693	91252	Two men sit at a diner, one reading a newspaper, the other smoking a cigarette.	test	['two']	['Three men sit at a diner, one reading a newspaper, the other smoking a cigarette.']	['Two men']	False
+42348693	91253	Two men sitting in a restaurant.	test	['two']	['Three men sitting in a restaurant.']	['Two men']	True
+4256162530	91550	Two women in shorts are running on the beach next to the water.	test	['two']	['Three women in shorts are running on the beach next to the water.']	['Two women']	False
+4256162530	91551	Two girls in shorts and sweaters are running on the beach.	test	['two']	['Three girls in shorts and sweaters are running on the beach.']	['Two girls']	False
+4256162530	91552	Two women in shorts run down a beach along the water.	test	['two']	['Three women in shorts run down a beach along the water.']	['Two women']	False
+4256162530	91553	Two people in shorts are running on the beach.	test	['two']	['Three people in shorts are running on the beach.']	['Two people']	False
+4256162530	91554	Two girls running along the shore.	test	['two']	['Three girls running along the shore.']	['Two girls']	False
+4257593776	91590	Three construction workers in orange vests speak to one another in front of railroad tracks.	test	['three']	['Four construction workers in orange vests speak to one another in front of railroad tracks.']	['Three construction workers']	True
+4257593776	91591	Three construction workers are standing outside and having a conversation.	test	['three']	['Four construction workers are standing outside and having a conversation.']	['Three construction workers']	False
+4282819676	92095	A little boy and two older kids are playing on gym equipment in a park with benches and trees.	test	['two']	['A little boy and three older kids are playing on gym equipment in a park with benches and trees.']	['two older kids']	False
+4282819676	92096	Three children are at the playground on some slanted bars.	test	['three']	['Four children are at the playground on some slanted bars.']	['Three children']	False
+4282819676	92097	Three young kids enjoying them self at the community park	test	['three']	['Two young kids enjoying them self at the community park']	['Three young kids']	True
+4284980126	92130	A group of five dark-skinned people sitting at what looks to be a farmer's market right behind a fruit that is green and spiky.	test	['five']	"[""A group of six dark-skinned people sitting at what looks to be a farmer's market right behind a fruit that is green and spiky.""]"	['five dark-skinned people']	True
+43244430	92922	Two young females talk and text as they stare into the distance.	test	['two']	['Three young females talk and text as they stare into the distance.']	['Two young females']	False
+43244430	92924	Two women share a laugh in the city.	test	['two']	['Three women share a laugh in the city.']	['Two women']	False
+4351734575	93656	Three men are standing on a stage, one is wearing clown makeup and holding a guitar.	test	['three']	['Four men are standing on a stage, one is wearing clown makeup and holding a guitar.']	['Three men']	False
+4373983146	94103	Two dancers performing in the spotlight, on stage.	test	['two']	['Three dancers performing in the spotlight, on stage.']	['Two dancers']	True
+441212506	94895	Three dogs running in grass, one carrying a tennis ball in mouth.	test	['three']	['Four dogs running in grass, one carrying a tennis ball in mouth.']	['Three dogs']	True
+441212506	94896	The black dog runs with a ball with two smaller dogs behind it.	test	['two']	['The black dog runs with a ball with three smaller dogs behind it.']	['two smaller dogs']	False
+441212506	94897	Three dogs playing in a field, one with a ball in its mouth.	test	['three']	['Two dogs playing in a field, one with a ball in its mouth.']	['Three dogs']	True
+441212506	94898	Two small dogs follow a larger dog with a tennis ball	test	['two']	['Three small dogs follow a larger dog with a tennis ball']	['Two small dogs']	True
+441212506	94899	Three dogs race towards the viewer over a lawn.	test	['three']	['Two dogs race towards the viewer over a lawn.']	['Three dogs race']	False
+4459992117	96740	A woman with pink hair on a street corner holds two dogs that have been dyed pink.	test	['two']	['A woman with pink hair on a street corner holds three dogs that have been dyed pink.']	['two dogs']	False
+4459992117	96743	A woman with pink hair poses on a street corner with two pink dogs.	test	['two']	['A woman with pink hair poses on a street corner with three pink dogs.']	['two pink dogs']	False
+4459992117	96744	A woman poses with a smile with two pink puppies at her hand.	test	['two']	['A woman poses with a smile with three pink puppies at her hand.']	['two pink puppies']	True
+4463538995	96867	A woman in the red jacket is holding two multicolored ribbons.	test	['two']	['A woman in the red jacket is holding three multicolored ribbons.']	['two multicolored ribbons']	False
+4469735380	97175	Two people stand in front of a hot circular grill and a basket of eggs, one cooking the eggs while the other waits for them to be completed	test	['two']	['Three people stand in front of a hot circular grill and a basket of eggs, one cooking the eggs while the other waits for them to be completed']	['Two people']	True
+4483766693	97725	The man with sunglasses and a striped shirt is walking down the street with three cases of beer.	test	['three']	['The man with sunglasses and a striped shirt is walking down the street with two cases of beer.']	['three cases']	False
+4483766693	97726	A man in sunglasses walking down a street carrying three cases of beer.	test	['three']	['A man in sunglasses walking down a street carrying four cases of beer.']	['three cases']	False
+4507759934	98690	A man and a woman are each holding one of two little girl's hands, crossing the street, in the distance is a cyclist.	test	['two']	"[""A man and a woman are each holding one of three little girl's hands, crossing the street, in the distance is a cyclist.""]"	"[""two little girl's hands""]"	True
+4507759934	98691	In this photo there is a family of four dashing across a busy street in the city.	test	['four']	['In this photo there is a family of three dashing across a busy street in the city.']	['four']	False
+4507759934	98693	A family of four is crossing the street.	test	['four']	['A family of three is crossing the street.']	['four']	False
+4510809964	98862	Three people walk past a tourist attraction behind a wrought iron fence.	test	['three']	['Four people walk past a tourist attraction behind a wrought iron fence.']	['Three people']	False
+4517193541	99172	Three people are pictured walking down and alleyway.	test	['three']	['Four people are pictured walking down and alleyway.']	['Three people']	False
+4523132391	99338	Two row of trees leading to an open gate.	test	['two']	['Three row of trees leading to an open gate.']	['Two row']	True
+45543081	100770	Two men sitting on a cart being drawn by a horse down a cobblestone street.	test	['two']	['Three men sitting on a cart being drawn by a horse down a cobblestone street.']	['Two men']	False
+45543081	100771	Two young men riding on a very small horse-drawn wagon full of potatoes.	test	['two']	['Three young men riding on a very small horse-drawn wagon full of potatoes.']	['Two young men']	True
+45543081	100772	Two men are sitting in a horse drawn cart with potatoes in the back.	test	['two']	['Three men are sitting in a horse drawn cart with potatoes in the back.']	['Two men']	True
+45543081	100773	Two guys sitting on a car and horse with potatoes in the back.	test	['two']	['Three guys sitting on a car and horse with potatoes in the back.']	['Two guys']	True
+45543081	100774	Two men on a produce cart driven by a horse.	test	['two']	['Three men on a produce cart driven by a horse.']	['Two men']	False
+4587060991	102240	Two guys in front of a souvenir shop, with one guy in a red scarf talking on the phone.	test	['two']	['Three guys in front of a souvenir shop, with one guy in a red scarf talking on the phone.']	['Two guys']	False
+4587060991	102242	Two men are having a conversation in front of a souvenir shop in Rome.	test	['two']	['Three men are having a conversation in front of a souvenir shop in Rome.']	['Two men']	False
+4587060991	102244	Two friends meet up at a shop.	test	['two']	['Three friends meet up at a shop.']	['Two friends']	False
+4604969760	102960	A young girl in a pink jacket walks with two sisters in matching outfits in public.	test	['two']	['A young girl in a pink jacket walks with three sisters in matching outfits in public.']	['two sisters']	False
+4604969760	102961	Three little girls wearing brown and pick sweaters are walking on the street.	test	['three']	['Two little girls wearing brown and pick sweaters are walking on the street.']	['Three little girls']	False
+4604969760	102962	Three girls in jackets walking on the sidewalk talking to each other.	test	['three']	['Four girls in jackets walking on the sidewalk talking to each other.']	['Three girls']	True
+4604969760	102963	Three young girls are walking together down the sidewalk.	test	['three']	['Two young girls are walking together down the sidewalk.']	['Three young girls']	True
+4604969760	102964	Three girls wearing jackets running outside.	test	['three']	['Four girls wearing jackets running outside.']	['Three girls']	False
+462879289	104106	A young girls soccer team with green jerseys and black shorts doing warm up stretches with two adults.	test	['two']	['A young girls soccer team with green jerseys and black shorts doing warm up stretches with three adults.']	['two adults']	True
+4630824427	104163	Two dancers are performing within a caution-tape boundary.	test	['two']	['Three dancers are performing within a caution-tape boundary.']	['Two dancers']	True
+463551598	104490	A busy plaza with three young women with an umbrella and buckets full of possessions, possibly homeless.	test	['three']	['A busy plaza with two young women with an umbrella and buckets full of possessions, possibly homeless.']	['three young women']	False
+463551598	104492	Three people stand underneath and umbrella in front of a crowd of people.	test	['three']	['Four people stand underneath and umbrella in front of a crowd of people.']	['Three people']	True
+4637951374	104671	Two groups of shirtless men are in the water in the distance.	test	['two']	['Three groups of shirtless men are in the water in the distance.']	['Two groups']	False
+4637951374	104674	Two groups of swimmers wade out.	test	['two']	['Three groups of swimmers wade out.']	['Two groups']	True
+464340358	104905	Four construction workers gathered around a hole looking in a bucket.	test	['four']	['Five construction workers gathered around a hole looking in a bucket.']	['Four construction workers']	True
+464340358	104906	Three men with hard hats in front of a large hole in the ground.	test	['three']	['Two men with hard hats in front of a large hole in the ground.']	['Three men']	False
+464340358	104907	Four workmen removing debris, from a hole in the ground.	test	['four']	['Three workmen removing debris, from a hole in the ground.']	['Four workmen']	True
+4654284177	105609	Three people playing pool and one is thinking of his next shot.	test	['three']	['Two people playing pool and one is thinking of his next shot.']	['Three people']	False
+4664359066	106096	There are a crowd of people standing on the side of the road with two cars beside them.	test	['two']	['There are a crowd of people standing on the side of the road with three cars beside them.']	['two cars']	False
+4665413015	106110	Two men wearing orange robes and sandals are standing in front of the Bean in Millenium Park, Chicago.	test	['two']	['Three men wearing orange robes and sandals are standing in front of the Bean in Millenium Park, Chicago.']	['Two men']	False
+4665413015	106111	Two men dressed in dark orange coverings and sandals stand near a large reflective sculpture.	test	['two']	['Three men dressed in dark orange coverings and sandals stand near a large reflective sculpture.']	['Two men']	False
+4665413015	106112	Two men standing in front of the bean in Chicago.	test	['two']	['Three men standing in front of the bean in Chicago.']	['Two men']	False
+4665413015	106113	Two men in robes next to a large structure.	test	['two']	['Three men in robes next to a large structure.']	['Two men']	False
+4665413015	106114	Two monks are visiting a big city.	test	['two']	['Three monks are visiting a big city.']	['Two monks']	False
+4671795847	106508	Two people are spending good time in their boat.	test	['two']	['Three people are spending good time in their boat.']	['Two people']	False
+4679111230	106905	Three firefighters, the nearest firefighter is holding a helmet in his left hand.	test	['three']	['Four firefighters, the nearest firefighter is holding a helmet in his left hand.']	['Three firefighters']	True
+4679111230	106906	Three firefighters enraged after a prank call.	test	['three']	['Four firefighters enraged after a prank call.']	['Three firefighters']	True
+4679111230	106907	Three firefighter come out of subway station.	test	['three']	['Four firefighter come out of subway station.']	['Three firefighter']	False
+4683565867	107115	Four older men sitting on a blue patterned rug in an ethnic looking place of worship, 3 of them wearing some sort of head covering.	test	['four']	['Five older men sitting on a blue patterned rug in an ethnic looking place of worship, 3 of them wearing some sort of head covering.']	['Four older men']	True
+4683565867	107116	Four men, three of whom are wearing prayer caps, are sitting on a blue and olive green patterned mat.	test	['three', 'four']	['Four men, two of whom are wearing prayer caps, are sitting on a blue and olive green patterned mat.', 'Three men, three of whom are wearing prayer caps, are sitting on a blue and olive green patterned mat.']	['three', 'Four men']	True
+4683565867	107117	Four men sit cross legged on top of a blue, yellow, and white rug, smiling at the camera.	test	['four']	['Three men sit cross legged on top of a blue, yellow, and white rug, smiling at the camera.']	['Four men']	False
+4683565867	107118	Four men pose for the camera on a blanket in what appears to be a middle eastern location.	test	['four']	['Five men pose for the camera on a blanket in what appears to be a middle eastern location.']	['Four men']	False
+4683565867	107119	Four men sit on the found in front of a church or synagogue.	test	['four']	['Five men sit on the found in front of a church or synagogue.']	['Four men']	True
+4687557453	107490	Two people in orange shirts sits at a table on the right of a group of people in blue shirts in front an old building.	test	['two']	['Three people in orange shirts sits at a table on the right of a group of people in blue shirts in front an old building.']	['Two people']	False
+4688197510	107552	A street corner with stores and two men walking the sidewalk.	test	['two']	['A street corner with stores and three men walking the sidewalk.']	['two men']	False
+4688948552	107650	Three surgeons operate on a patient while wearing magnifying lenses on their safety glasses.	test	['three']	['Two surgeons operate on a patient while wearing magnifying lenses on their safety glasses.']	['Three surgeons']	False
+4688948552	107651	Two doctors are working on a surgical procedure.	test	['two']	['Three doctors are working on a surgical procedure.']	['Two doctors']	True
+4688948552	107654	Two doctors perform an operation.	test	['two']	['Three doctors perform an operation.']	['Two doctors']	False
+4691655601	107900	A band is of four members including a woman and three men are playing their instruments with an open guitar case in front of them.	test	['three', 'four']	['A band is of four members including a woman and four men are playing their instruments with an open guitar case in front of them.', 'A band is of five members including a woman and three men are playing their instruments with an open guitar case in front of them.']	['three men', 'four members']	True
+4691655601	107904	Four people playing instruments on a public place.	test	['four']	['Three people playing instruments on a public place.']	['Four people']	False
+4692834620	107988	The two man are dancing in the street.	test	['two']	['The three man are dancing in the street.']	['The two man']	False
+4692834620	107989	Two people, dressed in red, dancing.	test	['two']	['Three people, dressed in red, dancing.']	['Two people']	False
+4696109052	108176	Two people survey the night sky, illuminated by the moon and the glow of the city they are in, with an ornate bust occupying the space to their right.	test	['two']	['Three people survey the night sky, illuminated by the moon and the glow of the city they are in, with an ornate bust occupying the space to their right.']	['Two people']	False
+4696109052	108177	Two people are staring at a river at night next to a statue of a man.	test	['two']	['Three people are staring at a river at night next to a statue of a man.']	['Two people']	False
+4696109052	108178	Two people look on in the nighttime at the lights in a city.	test	['two']	['Three people look on in the nighttime at the lights in a city.']	['Two people']	False
+4700788144	108480	Two motocross bikers wearing full protective gear, with one in midair after a jump and the other looking down at his motorcycle.	test	['two']	['Three motocross bikers wearing full protective gear, with one in midair after a jump and the other looking down at his motorcycle.']	['Two motocross bikers']	False
+4706166634	108820	Two girls running down the street in front of a large building with white and red flags by the door.	test	['two']	['Three girls running down the street in front of a large building with white and red flags by the door.']	['Two girls']	False
+4706166634	108821	Two young girls run on a sidewalk outside of a brick building with banners on it.	test	['two']	['Three young girls run on a sidewalk outside of a brick building with banners on it.']	['Two young girls']	False
+4706166634	108822	Two children play on the street outside an old building.	test	['two']	['Three children play on the street outside an old building.']	['Two children']	False
+4706166634	108823	Two people walk on the sidewalk past a brick building.	test	['two']	['Three people walk on the sidewalk past a brick building.']	['Two people']	False
+4706166634	108824	Two people are running along side a building.	test	['two']	['Three people are running along side a building.']	['Two people']	False
+4707189762	108890	Two men are climbing up a steep rock face with moss growing out of it.	test	['two']	['Three men are climbing up a steep rock face with moss growing out of it.']	['Two men']	False
+4707189762	108891	Two people climb a sheer cliff face on a clear day.	test	['two']	['Three people climb a sheer cliff face on a clear day.']	['Two people']	False
+4707189762	108892	Two individual climbing up a steep mountain.	test	['two']	['Three individual climbing up a steep mountain.']	['Two individual']	False
+4717627685	109502	Two people eating at an outside table with their dog.	test	['two']	['Three people eating at an outside table with their dog.']	['Two people']	False
+4717627685	109503	Two people eating with an onlooking greyhound dog.	test	['two']	['Three people eating with an onlooking greyhound dog.']	['Two people']	True
+4727540499	110211	Two young men playing electric guitars in a grunge-type setting.	test	['two']	['Three young men playing electric guitars in a grunge-type setting.']	['Two young men']	False
+4727540499	110212	Two young men play electric guitars on stage.	test	['two']	['Three young men play electric guitars on stage.']	['Two young men']	False
+4727540499	110213	Two men are playing guitar in a band.	test	['two']	['Three men are playing guitar in a band.']	['Two men']	False
+4727540499	110214	Two guys playing the guitar	test	['two']	['Three guys playing the guitar']	['Two guys']	False
+4729526023	110339	Two guys drinking beer outside on a bench.	test	['two']	['Three guys drinking beer outside on a bench.']	['Two guys']	False
+4730076543	110391	Two people stand next to an inflatable obstacle course with hand holds.	test	['two']	['Three people stand next to an inflatable obstacle course with hand holds.']	['Two people']	False
+4730076543	110392	Two people are standing around in front of an inflated blob machine.	test	['two']	['Three people are standing around in front of an inflated blob machine.']	['Two people']	False
+4730076543	110393	Two people standing outside next to blow up toys and dumpsters.	test	['two']	['Three people standing outside next to blow up toys and dumpsters.']	['Two people']	False
+4730076543	110394	Two people are looking at an inflatable climbing wall.	test	['two']	['Three people are looking at an inflatable climbing wall.']	['Two people']	False
+4731694958	110492	Four people are riding bicycles on a bike path near a busy street.	test	['four']	['Five people are riding bicycles on a bike path near a busy street.']	['Four people']	False
+4731694958	110493	Three bicyclists riding on bridge along side traffic.	test	['three']	['Two bicyclists riding on bridge along side traffic.']	['Three bicyclists']	False
+4732745499	110578	Two older women outside set against a cityscape.	test	['two']	['Three older women outside set against a cityscape.']	['Two older women']	True
+4739632460	110965	Two workers, one in a ditch and one standing on the ground, are working in front of a house.	test	['two']	['Three workers, one in a ditch and one standing on the ground, are working in front of a house.']	['Two workers']	False
+474581065	111291	Four horses with cowboy riders running near a fifth horse that has no rider.	test	['four']	['Five horses with cowboy riders running near a fifth horse that has no rider.']	['Four horses']	False
+4752074240	111635	Two nuns, one with paper in her hand, and the other holding a bag.	test	['two']	['Three nuns, one with paper in her hand, and the other holding a bag.']	['Two nuns']	True
+4752074240	111636	Two nuns stand talking to a person.	test	['two']	['Three nuns stand talking to a person.']	['Two nuns']	True
+4752074240	111637	Two nuns are posing for a picture.	test	['two']	['Three nuns are posing for a picture.']	['Two nuns']	False
+4752074240	111638	Two nuns are standing outside.	test	['two']	['Three nuns are standing outside.']	['Two nuns']	True
+4752074240	111639	Two nuns stand on the street.	test	['two']	['Three nuns stand on the street.']	['Two nuns']	False
+4762011238	112380	People waiting for a subway train : one man in a black suit sitting on bench and three women standing or walking.	test	['three']	['People waiting for a subway train : one man in a black suit sitting on bench and four women standing or walking.']	['three women']	False
+47770444	113257	Two people on motorbikes are riding past construction.	test	['two']	['Three people on motorbikes are riding past construction.']	['Two people']	False
+4788967636	113881	Four men are preparing to launch a boat with colorful flags.	test	['four']	['Three men are preparing to launch a boat with colorful flags.']	['Four men']	False
+4795824646	114175	Two women wearing hijab garments walk on a sidewalk, one of the women is carrying a child on her shoulders.	test	['two']	['Three women wearing hijab garments walk on a sidewalk, one of the women is carrying a child on her shoulders.']	['Two women']	True
+4795824646	114177	Two women, one with a child on her shoulders, are walking against a wall along the side of a road.	test	['two']	['Three women, one with a child on her shoulders, are walking against a wall along the side of a road.']	['Two women']	False
+4795824646	114179	Two women are walking on a footpath.	test	['two']	['Three women are walking on a footpath.']	['Two women']	True
+479807465	114304	Two boys lifting a dirt bike.	test	['two']	['Three boys lifting a dirt bike.']	['Two boys']	True
+4798837062	114325	Two women wearing jeans and a man wearing shorts walking up a gravel mountain road carrying backpacks.	test	['two']	['Three women wearing jeans and a man wearing shorts walking up a gravel mountain road carrying backpacks.']	['Two women']	True
+4798837062	114326	Three people are walking up a mountain trail, while one woman is looking at her camera.	test	['three']	['Two people are walking up a mountain trail, while one woman is looking at her camera.']	['Three people']	False
+4798837062	114327	Three people are hiking down a long gravel trail with scenic green hills behind them.	test	['three']	['Four people are hiking down a long gravel trail with scenic green hills behind them.']	['Three people']	True
+4798837062	114328	Three people, with backpacks hiking along a dirt road through the mountains.	test	['three']	['Four people, with backpacks hiking along a dirt road through the mountains.']	['Three people']	True
+4798837062	114329	Three hikers a traversing a trail as a young lady inspects her camera.	test	['three']	['Four hikers a traversing a trail as a young lady inspects her camera.']	['Three hikers']	False
+4806000438	114841	Three men in red and white striped shirts, white pants, and black hats hold flags.	test	['three']	['Four men in red and white striped shirts, white pants, and black hats hold flags.']	['Three men']	False
+4806000438	114842	Three men in red striped shirts carry flags outside of a brick building.	test	['three']	['Four men in red striped shirts carry flags outside of a brick building.']	['Three men']	False
+4806000438	114843	Three men in striped shirts carry flags.	test	['three']	['Four men in striped shirts carry flags.']	['Three men']	False
+4808256003	114970	Two women looking at an Asian decoration that looks like a collage.	test	['two']	['Three women looking at an Asian decoration that looks like a collage.']	['Two women']	False
+4808471657	115030	A woman in a white shirt and blue shorts follows a two people in red shirts up a staircase.	test	['two']	['A woman in a white shirt and blue shorts follows a three people in red shirts up a staircase.']	['a two people']	True
+4808471657	115031	A group of three people climb a path of wooden stairs up a rocky hill.	test	['three']	['A group of four people climb a path of wooden stairs up a rocky hill.']	['three people']	False
+4808471657	115032	Three people are outside walking up a set of wooden stairs.	test	['three']	['Two people are outside walking up a set of wooden stairs.']	['Three people']	True
+4812170955	115327	Small boy in blue with a bright red ball walking near four bare trees.	test	['four']	['Small boy in blue with a bright red ball walking near three bare trees.']	['four bare trees']	True
+4814332291	115494	A boy stands with three girls.	test	['three']	['A boy stands with four girls.']	['three girls']	False
+4814603619	115535	Four men in green, red, gray, and white shirts standing near a blue handrail smiling for a picture.	test	['four']	['Five men in green, red, gray, and white shirts standing near a blue handrail smiling for a picture.']	['Four men']	False
+4814603619	115536	Four men are outside looking down over the green bridge they are on.	test	['four']	['Five men are outside looking down over the green bridge they are on.']	['Four men']	False
+4814603619	115537	Four middle-aged men stand behind a fence in the midst of a forest.	test	['four']	['Three middle-aged men stand behind a fence in the midst of a forest.']	['Four middle-aged men']	False
+4814603619	115539	Four men leaning over a green fence and smiling.	test	['four']	['Five men leaning over a green fence and smiling.']	['Four men']	True
+4814933116	115576	A woman in a two piece swimsuit is on the beach looking at her foot.	test	['two']	['A woman in a three piece swimsuit is on the beach looking at her foot.']	['a two piece swimsuit']	False
+481632457	115644	The two dogs are outside.	test	['two']	['The three dogs are outside.']	['The two dogs']	False
+4817447781	115720	There is six adults in front of a little kitchen some eating and others walking around.	test	['six']	['There is five adults in front of a little kitchen some eating and others walking around.']	['six adults']	False
+4826547083	116401	Two women walking down the street outside of a restaurant, one with a stroller and a baby, the other with a dog.	test	['two']	['Three women walking down the street outside of a restaurant, one with a stroller and a baby, the other with a dog.']	['Two women']	False
+4826547083	116404	Two women, one walking her dog the other pushing a stroller.	test	['two']	['Three women, one walking her dog the other pushing a stroller.']	['Two women']	True
+4830409466	116733	Two people on red motorcycle riding with a group of motorcyclist.	test	['two']	['Three people on red motorcycle riding with a group of motorcyclist.']	['Two people']	False
+4830409466	116734	Two people are riding a motorcycle along with many other riders.	test	['two']	['Three people are riding a motorcycle along with many other riders.']	['Two people']	False
+4830651041	116755	Two women in military uniform are standing with other soldiers in formation.	test	['two']	['Three women in military uniform are standing with other soldiers in formation.']	['Two women']	False
+4830651041	116758	Two female soldiers standing in a crowd.	test	['two']	['Three female soldiers standing in a crowd.']	['Two female soldiers']	False
+4830651041	116759	Two girls wearing an army uniform.	test	['two']	['Three girls wearing an army uniform.']	['Two girls']	False
+4845544942	117510	Three Asian women are standing together smiling, the one with red-hair is holding up the peace sign with her fingers.	test	['three']	['Two Asian women are standing together smiling, the one with red-hair is holding up the peace sign with her fingers.']	['Three Asian women']	False
+4845544942	117511	Three girls smiling, one of those showing two fingers as if she's doing the peace sign.	test	['two', 'three']	"[""Three girls smiling, one of those showing three fingers as if she's doing the peace sign."", ""Four girls smiling, one of those showing two fingers as if she's doing the peace sign.""]"	['two fingers', 'Three girls']	False
+4845544942	117512	Three young women smiling while the lady with the red-hair makes a peace gesture.	test	['three']	['Four young women smiling while the lady with the red-hair makes a peace gesture.']	['Three young women']	False
+4845544942	117513	Three girls are smiling for a picture.	test	['three']	['Four girls are smiling for a picture.']	['Three girls']	False
+4845544942	117514	Three girls smiling for the camera.	test	['three']	['Two girls smiling for the camera.']	['Three girls']	False
+4846324908	117545	Three people, two in black and one in yellow, are seated on a wooden bench, only their heads and shoulders visible, in front of a sign for a furniture showroom &amp; restaurant.	test	['two', 'three']	['Three people, three in black and one in yellow, are seated on a wooden bench, only their heads and shoulders visible, in front of a sign for a furniture showroom &amp; restaurant.', 'Four people, two in black and one in yellow, are seated on a wooden bench, only their heads and shoulders visible, in front of a sign for a furniture showroom &amp; restaurant.']	['two', 'Three people']	False
+4846324908	117547	Two women talking to one another while a man looks on.	test	['two']	['Three women talking to one another while a man looks on.']	['Two women']	False
+4846324908	117548	Two young women discuss something while waiting.	test	['two']	['Three young women discuss something while waiting.']	['Two young women']	True
+4846324908	117549	Three people are sitting on a wooden bench.	test	['three']	['Two people are sitting on a wooden bench.']	['Three people']	False
+4854547386	118085	Two young men in black and white t-shirt are walking down the street with a girl in a pink shirt and patterned leggings.	test	['two']	['Three young men in black and white t-shirt are walking down the street with a girl in a pink shirt and patterned leggings.']	['Two young men']	False
+4854547386	118086	Three people walk down the street with a camera in hand.	test	['three']	['Four people walk down the street with a camera in hand.']	['Three people']	False
+4854547386	118087	Two guys and a girl walking together in a busy street.	test	['two']	['Three guys and a girl walking together in a busy street.']	['Two guys']	False
+4854547386	118088	Two men and a woman are walking down a city street.	test	['two']	['Three men and a woman are walking down a city street.']	['Two men']	True
+4854547386	118089	Two men and a woman walking together.	test	['two']	['Three men and a woman walking together.']	['Two men']	False
+4860086271	118622	Two boys are playing on the sidewalk.	test	['two']	['Three boys are playing on the sidewalk.']	['Two boys']	False
+4860086271	118624	Two kids playing with toys	test	['two']	['Three kids playing with toys']	['Two kids']	True
+4864584935	118950	Two boys are looking upwards with their arms streteched to the sky, the boy on the left is wearing a blue vest jacket with a gray long-sleeved shirt and black jogging pants, and black tennis shoes and a hat, and the boy on the right is wearing a silver vest jacket, with blue long-sleeved undershirt, gray pants, and black tennis shoes and has black short hair and glasses.	test	['two']	['Three boys are looking upwards with their arms streteched to the sky, the boy on the left is wearing a blue vest jacket with a gray long-sleeved shirt and black jogging pants, and black tennis shoes and a hat, and the boy on the right is wearing a silver vest jacket, with blue long-sleeved undershirt, gray pants, and black tennis shoes and has black short hair and glasses.']	['Two boys']	False
+4864584935	118951	Two boys are looking up at the sky and waving theirs arms and they are dressed in clothes to keep them warm.	test	['two']	['Three boys are looking up at the sky and waving theirs arms and they are dressed in clothes to keep them warm.']	['Two boys']	False
+4864584935	118952	Two boys in long-sleeve shirts are reaching and staring upward.	test	['two']	['Three boys in long-sleeve shirts are reaching and staring upward.']	['Two boys']	False
+4864584935	118953	Two people waving their hands in the air and looking up.	test	['two']	['Three people waving their hands in the air and looking up.']	['Two people']	True
+4871230195	119315	Three people sit at a table in front of an establishment displaying the words Bar Gleati Tabacchi.	test	['three']	['Two people sit at a table in front of an establishment displaying the words Bar Gleati Tabacchi.']	['Three people']	False
+4871230195	119316	Three people sitting outside under canopy that says Bar Gelati Tabacchi.	test	['three']	['Two people sitting outside under canopy that says Bar Gelati Tabacchi.']	['Three people']	False
+4871230195	119317	Three people are sitting at an outdoor table in front of a coffee shop.	test	['three']	['Two people are sitting at an outdoor table in front of a coffee shop.']	['Three people']	True
+4871230195	119318	Three people sitting at a table outside Bar Gelati Tabacchi.	test	['three']	['Four people sitting at a table outside Bar Gelati Tabacchi.']	['Three people']	True
+4871230195	119319	Three men sit outside of a cafe.	test	['three']	['Four men sit outside of a cafe.']	['Three men']	False
+4881733837	119786	A man hangs upside down in a busy park as three people are clearly seen looking at him.	test	['three']	['A man hangs upside down in a busy park as two people are clearly seen looking at him.']	['three people']	False
+4885361477	119930	Two young men walk toward the camera, with the redheaded man on the left turning his head to look back at three women in the background who are walking away in the other direction.	test	['two', 'three']	['Three young men walk toward the camera, with the redheaded man on the left turning his head to look back at three women in the background who are walking away in the other direction.', 'Two young men walk toward the camera, with the redheaded man on the left turning his head to look back at two women in the background who are walking away in the other direction.']	['Two young men', 'three women']	True
+4885361477	119931	A young man walking with another young man glances back at three girls they just passed	test	['three']	['A young man walking with another young man glances back at two girls they just passed']	['three girls']	False
+4885361477	119932	Two men walking, one of which is looking back and the other looking directly ahead.	test	['two']	['Three men walking, one of which is looking back and the other looking directly ahead.']	['Two men']	True
+4885361477	119934	Two young people walk down a sidewalk in jackets.	test	['two']	['Three young people walk down a sidewalk in jackets.']	['Two young people']	True
+4890769146	120355	Four adults and a little blond girl walk up a set of outside stairs lead by a lady in a pink shirt.	test	['four']	['Three adults and a little blond girl walk up a set of outside stairs lead by a lady in a pink shirt.']	['Four adults']	True
+4890769146	120356	Five people walking up a set of stairs led by a woman in a pink shirt and brown skirt.	test	['five']	['Six people walking up a set of stairs led by a woman in a pink shirt and brown skirt.']	['Five people']	True
+4896595765	120725	Two little boys eat McDonald's while sitting at a table and chairs outside, where others are also eating.	test	['two']	"[""Three little boys eat McDonald's while sitting at a table and chairs outside, where others are also eating.""]"	['Two little boys']	False
+4896595765	120726	Two boys eat their McDonalds lunch in an outdoor seating area surrounded by many other people.	test	['two']	['Three boys eat their McDonalds lunch in an outdoor seating area surrounded by many other people.']	['Two boys']	False
+4896595765	120728	Two young boys eat McDonalds for lunch.	test	['two']	['Three young boys eat McDonalds for lunch.']	['Two young boys']	False
+4899074189	120905	A male in a purple shirt and white hat is driving a vehicle that has four wheels and some sort of basket in the front of it carrying three people.	test	['three', 'four']	['A male in a purple shirt and white hat is driving a vehicle that has four wheels and some sort of basket in the front of it carrying two people.', 'A male in a purple shirt and white hat is driving a vehicle that has three wheels and some sort of basket in the front of it carrying three people.']	['three people', 'four wheels']	True
+4899074189	120909	Three people sitting in a large bike basket.	test	['three']	['Two people sitting in a large bike basket.']	['Three people']	True
+4910374312	121359	A picture of two little boys holding books.	test	['two']	['A picture of three little boys holding books.']	['two little boys']	True
+4911020894	121387	Two small children sitting on a bench while eating ice cream.	test	['two']	['Three small children sitting on a bench while eating ice cream.']	['Two small children']	False
+4911020894	121388	Two children sit side by side while eating a treat.	test	['two']	['Three children sit side by side while eating a treat.']	['Two children']	False
+4911020894	121389	Two kids sitting at a table eating.	test	['two']	['Three kids sitting at a table eating.']	['Two kids']	False
+4928592495	122380	Two men, dressed in business suits, wearing long black coats, sharing a blue plaid umbrella, standing against a graffiti painted brick wall.	test	['two']	['Three men, dressed in business suits, wearing long black coats, sharing a blue plaid umbrella, standing against a graffiti painted brick wall.']	['Two men']	True
+4928592495	122381	Two young men in long jackets stand under an umbrella in front of a brick wall with graffiti.	test	['two']	['Three young men in long jackets stand under an umbrella in front of a brick wall with graffiti.']	['Two young men']	False
+4928592495	122382	Two men in suits standing under an umbrella, next to a wall covered in graffiti.	test	['two']	['Three men in suits standing under an umbrella, next to a wall covered in graffiti.']	['Two men']	False
+4928592495	122383	Two men in suits under an umbrella and in front of graffiti.	test	['two']	['Three men in suits under an umbrella and in front of graffiti.']	['Two men']	True
+4928592495	122384	Two men in black holding an umbrella in the street.	test	['two']	['Three men in black holding an umbrella in the street.']	['Two men']	False
+4931839897	122675	Two Bicyclers with backpacks going through the fields with mountains in the background.	test	['two']	['Three Bicyclers with backpacks going through the fields with mountains in the background.']	['Two Bicyclers']	False
+4931839897	122676	Two bicyclists with helmets on are riding past some empty country fields.	test	['two']	['Three bicyclists with helmets on are riding past some empty country fields.']	['Two bicyclists']	True
+4931839897	122677	Two people are riding bikes in front of a vast mountain range.	test	['two']	['Three people are riding bikes in front of a vast mountain range.']	['Two people']	False
+4931839897	122678	Two people are biking past a house and field in the country.	test	['two']	['Three people are biking past a house and field in the country.']	['Two people']	False
+4931839897	122679	Two person are riding their bicycles.	test	['two']	['Three person are riding their bicycles.']	['Two person']	False
+4950715878	124030	Four people walking beside each other down a street, one of the men is turned around looking toward the camera.	test	['four']	['Three people walking beside each other down a street, one of the men is turned around looking toward the camera.']	['Four people']	True
+4950715878	124033	Three people walk away from the camera, and a man in a black shirt looks back.	test	['three']	['Two people walk away from the camera, and a man in a black shirt looks back.']	['Three people']	False
+4952001654	124147	Two people consult a map on the interior of a traffic circle.	test	['two']	['Three people consult a map on the interior of a traffic circle.']	['Two people']	False
+4952001654	124148	Two people looking a piece of paper standing on concrete.	test	['two']	['Three people looking a piece of paper standing on concrete.']	['Two people']	False
+4954827712	124316	Two people walking on dirt in front of a very large building.	test	['two']	['Three people walking on dirt in front of a very large building.']	['Two people']	False
+4954827712	124318	Two women are walking in dirt outside a large building.	test	['two']	['Three women are walking in dirt outside a large building.']	['Two women']	True
+4965629392	124870	Three construction workers stand at the front of a large group of people all wearing white shirts.	test	['three']	['Four construction workers stand at the front of a large group of people all wearing white shirts.']	['Three construction workers']	False
+5026046208	126580	Two people wearing hats are standing in a field tending to a crop.	test	['two']	['Three people wearing hats are standing in a field tending to a crop.']	['Two people']	False
+5026046208	126582	Two workers in sunhats are bent over in a rice paddy.	test	['two']	['Three workers in sunhats are bent over in a rice paddy.']	['Two workers']	False
+5026046208	126583	Two gardeners are pruning a stretch of leafy plants.	test	['two']	['Three gardeners are pruning a stretch of leafy plants.']	['Two gardeners']	True
+5026046208	126584	These two workers are working in the green field.	test	['two']	['These three workers are working in the green field.']	['These two workers']	False
+508793006	127281	A large man in a white shirt rides a brown horse that is bucking and has its two front feet off the ground.	test	['two']	['A large man in a white shirt rides a brown horse that is bucking and has its three front feet off the ground.']	['its two front feet']	False
+509123893	127350	Two little girls sitting on the edge of a street eating corn on the cob.	test	['two']	['Three little girls sitting on the edge of a street eating corn on the cob.']	['Two little girls']	False
+509123893	127351	Two young girls eating corn on the cob on a sidewalk without shoes.	test	['two']	['Three young girls eating corn on the cob on a sidewalk without shoes.']	['Two young girls']	False
+509123893	127352	Two girls enjoy corn on the cob while sitting on a curb.	test	['two']	['Three girls enjoy corn on the cob while sitting on a curb.']	['Two girls']	False
+509123893	127353	Two young girls are sitting on the street eating corn.	test	['two']	['Three young girls are sitting on the street eating corn.']	['Two young girls']	False
+509123893	127354	Two cute little girls enjoying corn on the cob.	test	['two']	['Three cute little girls enjoying corn on the cob.']	['Two cute little girls']	False
+5094295894	127395	Three children in football uniforms of two different teams are playing football on a football field, while another player and an adult stand in the background.	test	['two', 'three']	['Three children in football uniforms of three different teams are playing football on a football field, while another player and an adult stand in the background.', 'Four children in football uniforms of two different teams are playing football on a football field, while another player and an adult stand in the background.']	['two different teams', 'Three children']	False
+51145626	127583	Two men are in a room and are looking in opposite directions.	test	['two']	['Three men are in a room and are looking in opposite directions.']	['Two men']	False
+51145626	127584	Two men looking at a computer.	test	['two']	['Three men looking at a computer.']	['Two men']	True
+511643051	127627	Two people, one with a white head covering, sit in the sand under a tree.	test	['two']	['Three people, one with a white head covering, sit in the sand under a tree.']	['Two people']	False
+511643051	127628	Two people sitting under a tree picking a green vegetable.	test	['two']	['Three people sitting under a tree picking a green vegetable.']	['Two people']	True
+5126446040	127770	Three young men in a kitchen standing around a stove, one of them is stirring something in a pot.	test	['three']	['Four young men in a kitchen standing around a stove, one of them is stirring something in a pot.']	['Three young men']	True
+5126446040	127772	A man cooks with a pot on the stove in the kitchen, two other men observe.	test	['two']	['A man cooks with a pot on the stove in the kitchen, three other men observe.']	['two other men']	False
+5126446040	127773	Man preparing food while two others watch.	test	['two']	['Man preparing food while three others watch.']	['two others']	True
+5163992452	128130	Two women wearing colorful skirts and t-shirts are dancing in a dirt clearing in the center of a circle of other women, who are clapping.	test	['two']	['Three women wearing colorful skirts and t-shirts are dancing in a dirt clearing in the center of a circle of other women, who are clapping.']	['Two women']	False
+5163992452	128131	Two African women wearing purple and lime green skirts are dancing in within a circle of clapping women in similar ensembles.	test	['two']	['Three African women wearing purple and lime green skirts are dancing in within a circle of clapping women in similar ensembles.']	['Two African women']	False
+5163992452	128134	Spectators are watching two women dance.	test	['two']	['Spectators are watching three women dance.']	['two']	False
+5225675783	128816	Two people working on welding metal together outside on a sidewalk.	test	['two']	['Three people working on welding metal together outside on a sidewalk.']	['Two people']	False
+5225675783	128817	Two workers weld the bars of a fence near a busy suburban street.	test	['two']	['Three workers weld the bars of a fence near a busy suburban street.']	['Two workers']	False
+5238681042	128975	Two workers wearing bright protective overcoats, shovel snow out of the way of passing residents.	test	['two']	['Three workers wearing bright protective overcoats, shovel snow out of the way of passing residents.']	['Two workers']	False
+5238681042	128976	In a outdoor market two men shovel snow and slush out of the path.	test	['two']	['In a outdoor market three men shovel snow and slush out of the path.']	['two men shovel snow']	False
+5238681042	128977	Two workers and clearing a busy street of snow.	test	['two']	['Three workers and clearing a busy street of snow.']	['Two workers']	False
+5246144625	129100	Three young girls in winter clothing and hats look at disposable cameras they are holding.	test	['three']	['Four young girls in winter clothing and hats look at disposable cameras they are holding.']	['Three young girls']	False
+5246144625	129102	Three young girls in winter coats and hats inspect cameras.	test	['three']	['Two young girls in winter coats and hats inspect cameras.']	['Three young girls']	False
+5246144625	129103	Three children inspecting their disposable cameras.	test	['three']	['Two children inspecting their disposable cameras.']	['Three children']	True
+5365075444	130420	Two young children working together to operate a bicycle.	test	['two']	['Three young children working together to operate a bicycle.']	['Two young children']	True
+5365075444	130421	Two children attempt to use a bicycle to large for them.	test	['two']	['Three children attempt to use a bicycle to large for them.']	['Two children']	True
+5365075444	130422	Two little girls ride a bike together down a dusty road.	test	['two']	['Three little girls ride a bike together down a dusty road.']	['Two little girls']	False
+5365075444	130423	Two children are playing with a bicycle.	test	['two']	['Three children are playing with a bicycle.']	['Two children']	True
+5365075444	130424	Two children are playing on a bicycle.	test	['two']	['Three children are playing on a bicycle.']	['Two children']	False
+5369771639	130470	Two male soccer players in lime green uniforms passing the ball to each other.	test	['two']	['Three male soccer players in lime green uniforms passing the ball to each other.']	['Two male soccer players']	True
+5369771639	130471	Two men on opposing teams are playing soccer in a field.	test	['two']	['Three men on opposing teams are playing soccer in a field.']	['Two men']	True
+5369771639	130472	Two soccer players going head-to-head for a soccer ball.	test	['two']	['Three soccer players going head-to-head for a soccer ball.']	['Two soccer players']	False
+5369771639	130473	Two men scrimmage in soccer, as a referee looks on.	test	['two']	['Three men scrimmage in soccer, as a referee looks on.']	['Two men']	False
+5369771639	130474	Two soccer players in long sleeves	test	['two']	['Three soccer players in long sleeves']	['Two soccer players']	False
+5491874786	131850	Three men of varying ages are working preparing something with pots and bowls.	test	['three']	['Four men of varying ages are working preparing something with pots and bowls.']	['Three men']	False
+5491874786	131853	Three Asian men in a kitchen cooking.	test	['three']	['Four Asian men in a kitchen cooking.']	['Three Asian men']	False
+5491874786	131854	Three men are cooking in a kitchen.	test	['three']	['Two men are cooking in a kitchen.']	['Three men']	False
+5501939468	131966	Two children standing at the edge of a pool are holding hands while facing other swimmers.	test	['two']	['Three children standing at the edge of a pool are holding hands while facing other swimmers.']	['Two children']	False
+5501939468	131967	Two little girls in pink hats hold hands while wading in water.	test	['two']	['Three little girls in pink hats hold hands while wading in water.']	['Two little girls']	False
+5501939468	131968	Two girls in shorts are holding hands at a pool.	test	['two']	['Three girls in shorts are holding hands at a pool.']	['Two girls']	True
+5501939468	131969	Two little girls holding hands on a beach.	test	['two']	['Three little girls holding hands on a beach.']	['Two little girls']	False
+5506383509	132036	One young girl in a dress, and three young children leaning against a wall.	test	['three']	['One young girl in a dress, and four young children leaning against a wall.']	['three young children']	True
+5506383509	132037	Four Asian kids sit on a bench and wave and smile to the camera.	test	['four']	['Three Asian kids sit on a bench and wave and smile to the camera.']	['Four Asian kids']	False
+5506399373	132055	Seven children, three of which are riding bicycles traveling along a dirt path in a rural setting with a mountain in the background.	test	['three']	['Seven children, four of which are riding bicycles traveling along a dirt path in a rural setting with a mountain in the background.']	['three']	False
+5622966650	133076	Three men wearing brightly colored costumes take to the streets with wigs and crazy sunglasses.	test	['three']	['Four men wearing brightly colored costumes take to the streets with wigs and crazy sunglasses.']	['Three men']	False
+5622966650	133077	Three men are dressed in strange costumes, two are carrying musical instruments.	test	['two', 'three']	['Three men are dressed in strange costumes, three are carrying musical instruments.', 'Four men are dressed in strange costumes, two are carrying musical instruments.']	['two', 'Three men']	False
+5622966650	133078	Three men are dress up with some colors of blue, orange and white.	test	['three']	['Four men are dress up with some colors of blue, orange and white.']	['Three men']	False
+5622966650	133079	Three men are wearing strange costumes.	test	['three']	['Four men are wearing strange costumes.']	['Three men']	True
+5646792433	133225	Two children, one in a yellow shirt and the other in red rain boots, swing on the swings at a playground.	test	['two']	['Three children, one in a yellow shirt and the other in red rain boots, swing on the swings at a playground.']	['Two children']	False
+5646792433	133226	Two children, a boy in a yellow shirt and a girl in blue and white stripes, swinging.	test	['two']	['Three children, a boy in a yellow shirt and a girl in blue and white stripes, swinging.']	['Two children']	False
+5646792433	133227	Two children, a girl and a boy, are swinging on a swing set.	test	['two']	['Three children, a girl and a boy, are swinging on a swing set.']	['Two children']	False
+5730226613	134030	Two men appear to be working construction with their hard hats on.	test	['two']	['Three men appear to be working construction with their hard hats on.']	['Two men']	True
+5730226613	134031	Two construction workers are laying sheet metal across beams.	test	['two']	['Three construction workers are laying sheet metal across beams.']	['Two construction workers']	False
+5730226613	134032	Two construction workmen wearing hard hats work on a window.	test	['two']	['Three construction workmen wearing hard hats work on a window.']	['Two construction workmen']	False
+5730226613	134033	Two men in hard hats working at building a structure.	test	['two']	['Three men in hard hats working at building a structure.']	['Two men']	False
+5745120660	134215	Four in bright clothes men are performing on a stage, while other men in brown at the base of the stage work on equipment.	test	['four']	['Three in bright clothes men are performing on a stage, while other men in brown at the base of the stage work on equipment.']	['four']	True
+5745120660	134219	Four musicians perform on stage at a large concert venue.	test	['four']	['Five musicians perform on stage at a large concert venue.']	['Four musicians']	True
+5787072819	134532	Two hispanic women and one man unpacking their cart at the grocery store.	test	['two']	['Three hispanic women and one man unpacking their cart at the grocery store.']	['Two hispanic women']	False
+5787072819	134533	Here are three people unloading their groceries at the supermarket.	test	['three']	['Here are four people unloading their groceries at the supermarket.']	['three people']	False
+5829317322	134910	Two girls, one older and in black and one younger and in white, are performing the same ballet move in front of decorations made from balloons.	test	['two']	['Three girls, one older and in black and one younger and in white, are performing the same ballet move in front of decorations made from balloons.']	['Two girls']	False
+5829317322	134911	"Two women, one in black and one in white, are standing on one foot in front of a window that states, ""Babys"" in green and yellow balls."	test	['two']	"['Three women, one in black and one in white, are standing on one foot in front of a window that states, ""Babys"" in green and yellow balls.']"	['Two women']	True
+5829317322	134912	"Two young ballerinas pose before a sign reading ""babys""."	test	['two']	"['Three young ballerinas pose before a sign reading ""babys"".']"	['Two young ballerinas']	False
+5829317322	134913	Two dancers are practicing ballet technique.	test	['two']	['Three dancers are practicing ballet technique.']	['Two dancers']	False
+5829317322	134914	Two dancers practicing together.	test	['two']	['Three dancers practicing together.']	['Two dancers']	False
+5829827359	134922	Four Asian women performing a dance in traditional, Oriental attire, outside a church with onlookers watching.	test	['four']	['Three Asian women performing a dance in traditional, Oriental attire, outside a church with onlookers watching.']	['Four Asian women']	False
+58803866	135241	There are two street musicians playing percussion, while a crowd of people look on.	test	['two']	['There are three street musicians playing percussion, while a crowd of people look on.']	['two street musicians']	False
+58803866	135244	A crowd of people are watch two guys play buckets.	test	['two']	['A crowd of people are watch three guys play buckets.']	['two guys']	True
+5986222648	136201	Two guys performing rock concert, one has short blond-hair who is singing, and the second has long blond-hair and is jamming out on his guitar.	test	['two']	['Three guys performing rock concert, one has short blond-hair who is singing, and the second has long blond-hair and is jamming out on his guitar.']	['Two guys']	False
+5986222648	136202	Two rockers are singing and playing on a dark stage.	test	['two']	['Three rockers are singing and playing on a dark stage.']	['Two rockers']	False
+5986222648	136203	Two old men play guitar and sing at a rock concert.	test	['two']	['Three old men play guitar and sing at a rock concert.']	['Two old men']	False
+5986222648	136204	Two blond men rocking out on a dark stage.	test	['two']	['Three blond men rocking out on a dark stage.']	['Two blond men']	False
+6041486114	136515	Two men, one sitting, one standing, are playing their guitars on stage while the audience is looking on.	test	['two']	['Three men, one sitting, one standing, are playing their guitars on stage while the audience is looking on.']	['Two men']	False
+6041486114	136516	Two men, one with orange glasses, are playing guitars on stage in front of a crowd of onlookers.	test	['two']	['Three men, one with orange glasses, are playing guitars on stage in front of a crowd of onlookers.']	['Two men']	False
+6041486114	136517	Two guitarist are preparing for a show on stage in front of a waiting crowd	test	['two']	['Three guitarist are preparing for a show on stage in front of a waiting crowd']	['Two guitarist']	True
+6041486114	136518	Two men playing guitar in front of a large audience.	test	['two']	['Three men playing guitar in front of a large audience.']	['Two men']	False
+6147735412	137286	A woman and two men, that are dressed professionally, are having a discussion.	test	['two']	['A woman and three men, that are dressed professionally, are having a discussion.']	['two men']	False
+6147735412	137287	Two men and a woman standing in a circle having a conversation.	test	['two']	['Three men and a woman standing in a circle having a conversation.']	['Two men']	False
+6147735412	137288	Two men and a woman are having a conversation.	test	['two']	['Three men and a woman are having a conversation.']	['Two men']	False
+6250527395	138410	Two males from the green team tackles the other members from black team for the ball in a game of rugby.	test	['two']	['Three males from the green team tackles the other members from black team for the ball in a game of rugby.']	['Two males']	False
+6250527395	138411	Two teams, one clad in green and white and the other in black and white, face off on a grass field.	test	['two']	['Three teams, one clad in green and white and the other in black and white, face off on a grass field.']	['Two teams']	False
+6250527395	138412	Two rugby teams, one in green and white uniforms, the other in black, are engaged in a scrum.	test	['two']	['Three rugby teams, one in green and white uniforms, the other in black, are engaged in a scrum.']	['Two rugby teams']	False
+6275000713	138630	Four dark-haired adolescent boys, three wearing blue and one wearing red, are playing soccer on a green grass field.	test	['three', 'four']	['Four dark-haired adolescent boys, four wearing blue and one wearing red, are playing soccer on a green grass field.', 'Three dark-haired adolescent boys, three wearing blue and one wearing red, are playing soccer on a green grass field.']	['three', 'Four dark-haired adolescent boys']	False
+6312211170	139021	Two young men playing soccer on a sunny day are jumping for the soccer ball.	test	['two']	['Three young men playing soccer on a sunny day are jumping for the soccer ball.']	['Two young men']	False
+6312211170	139024	Three boys are playing soccer.	test	['three']	['Four boys are playing soccer.']	['Three boys']	False
+6439261679	139940	Two men with curling brushes are on an ice rink next to a curling rock, with a man in a red jacket nearby, and three other people in the background.	test	['two', 'three']	['Three men with curling brushes are on an ice rink next to a curling rock, with a man in a red jacket nearby, and three other people in the background.', 'Two men with curling brushes are on an ice rink next to a curling rock, with a man in a red jacket nearby, and four other people in the background.']	['Two men', 'three other people']	False
+6439261679	139941	Two male curling players are on ice sweeping the path in front of polished rock, a small crowd watches.	test	['two']	['Three male curling players are on ice sweeping the path in front of polished rock, a small crowd watches.']	['Two male curling players']	True
+6439261679	139943	Two sweepers work frantically as their curling teammates look on.	test	['two']	['Three sweepers work frantically as their curling teammates look on.']	['Two sweepers']	False
+6439261679	139944	Two men are learning to how to play curling.	test	['two']	['Three men are learning to how to play curling.']	['Two men']	True
+6453399365	140027	Two dirty guys playing soccer in the grass with players in the background.	test	['two']	['Three dirty guys playing soccer in the grass with players in the background.']	['Two dirty guys']	False
+6474645169	140134	The two college basketball teams are playing a game.	test	['two']	['The three college basketball teams are playing a game.']	['The two college basketball teams']	False
+6489895665	140210	Two race cars, one red and one blue, are driving side by side down a racetrack while being watched by several onlookers.	test	['two']	['Three race cars, one red and one blue, are driving side by side down a racetrack while being watched by several onlookers.']	['Two race cars']	True
+6489895665	140211	Two cars, one red and one blue, race each other in a very tight and competitive nature as fans stand by and watch.	test	['two']	['Three cars, one red and one blue, race each other in a very tight and competitive nature as fans stand by and watch.']	['Two cars']	True
+6489895665	140212	Two cars are racing on a track while the audience watches from behind a fence.	test	['two']	['Three cars are racing on a track while the audience watches from behind a fence.']	['Two cars']	False
+6489895665	140213	Two Formula-1 cars are racing side by side on a track.	test	['two']	['Three Formula-1 cars are racing side by side on a track.']	['Two Formula-1 cars']	False
+6489895665	140214	Two race cars burn rubber as spectators watch.	test	['two']	['Three race cars burn rubber as spectators watch.']	['Two race cars']	True
+6514004309	140337	Two hockey players trying to score in their opponents goal.	test	['two']	['Three hockey players trying to score in their opponents goal.']	['Two hockey players']	False
+6514004309	140338	Four people playing hockey in an ice rink.	test	['four']	['Three people playing hockey in an ice rink.']	['Four people']	False
+6515331737	140341	Three kids are bouncing on large rubber balls in a grass field as other people watch.	test	['three']	['Two kids are bouncing on large rubber balls in a grass field as other people watch.']	['Three kids']	True
+6515331737	140342	Spectators laugh as three people ride exercise balls down a field.	test	['three']	['Spectators laugh as four people ride exercise balls down a field.']	['three people']	False
+6515331737	140343	Three woman bouncing on balls in the grass.	test	['three']	['Two woman bouncing on balls in the grass.']	['Three woman']	True
+6586954247	140695	An older man who appears to be in his sixty's, seems to be doing some type of magical form of play with three children and an adult female, being his targeted group.	test	['three']	"[""An older man who appears to be in his sixty's, seems to be doing some type of magical form of play with two children and an adult female, being his targeted group.""]"	['three children']	True
+6699112713	141232	A female skier holding two ski poles wearing a white knit hat.	test	['two']	['A female skier holding three ski poles wearing a white knit hat.']	['two ski poles']	False
+6775387932	141642	Four girls and a lady learning how to do some crafts.	test	['four']	['Three girls and a lady learning how to do some crafts.']	['Four girls']	True
+6775387932	141643	Four females are doing some crafts activity.	test	['four']	['Three females are doing some crafts activity.']	['Four females']	False
+6775387932	141644	There are five people working at a table.	test	['five']	['There are six people working at a table.']	['five people']	False
+6818129694	141947	A rodeo scene with a big crowd watching three men being thrown from bucking broncos.	test	['three']	['A rodeo scene with a big crowd watching four men being thrown from bucking broncos.']	['three men']	True
+6848969863	142354	Three people drinking and having a good time.	test	['three']	['Two people drinking and having a good time.']	['Three people']	True
+6887015851	142850	Two young boys sitting on a sunlit floor smiling and holding a black lab puppy.	test	['two']	['Three young boys sitting on a sunlit floor smiling and holding a black lab puppy.']	['Two young boys']	True
+6887015851	142851	Two little boys smiling and holding a tiny, black puppy.	test	['two']	['Three little boys smiling and holding a tiny, black puppy.']	['Two little boys']	True
+6887015851	142852	Two young boys pose with a puppy for a family picture.	test	['two']	['Three young boys pose with a puppy for a family picture.']	['Two young boys']	False
+6887015851	142853	Two little boys in polos, are holding a black lab.	test	['two']	['Three little boys in polos, are holding a black lab.']	['Two little boys']	False
+6887015851	142854	Two children sitting with a black puppy.	test	['two']	['Three children sitting with a black puppy.']	['Two children']	False
+6889322961	142913	Four children practice karate while two adults watch.	test	['two', 'four']	['Four children practice karate while three adults watch.', 'Five children practice karate while two adults watch.']	['two adults', 'Four children']	False
+6917718093	143305	A lady in a gray sweater has a conversation with three other people at the same table.	test	['three']	['A lady in a gray sweater has a conversation with two other people at the same table.']	['three other people']	True
+6918264972	143310	Two horse racing jockeys, one in checkered blue and red and the other in orange and brown, are racing against a blurry background.	test	['two']	['Three horse racing jockeys, one in checkered blue and red and the other in orange and brown, are racing against a blurry background.']	['Two horse racing jockeys']	False
+6918264972	143314	Two jockeys on horses are racing down a track.	test	['two']	['Three jockeys on horses are racing down a track.']	['Two jockeys']	True
+6927762908	143470	A racing car with man ads emblazoned on it rounds a corner on a racetrack with two cars close behind it.	test	['two']	['A racing car with man ads emblazoned on it rounds a corner on a racetrack with three cars close behind it.']	['two cars']	False
+6927762908	143472	Hatchback red car racing around the track ahead of two trailing pray.	test	['two']	['Hatchback red car racing around the track ahead of three trailing pray.']	['two trailing pray']	True
+6927762908	143474	The red car is ahead of the two cars in the background.	test	['two']	['The red car is ahead of the three cars in the background.']	['the two cars']	False
+6956989138	143836	Two men are trying to rope in a bull who is crashing down on one of them, in a contest at a corral.	test	['two']	['Three men are trying to rope in a bull who is crashing down on one of them, in a contest at a corral.']	['Two men']	True
+6995905943	144366	Two teams of boys playing football in the sand.	test	['two']	['Three teams of boys playing football in the sand.']	['Two teams']	False
+6999596517	144395	Two boys, one wearing a blue shirt, the other wearing a muscle shirt, facing each other on a brick wall, next to a culvert.	test	['two']	['Three boys, one wearing a blue shirt, the other wearing a muscle shirt, facing each other on a brick wall, next to a culvert.']	['Two boys']	False
+6999596517	144397	Two young boys stand on a low cement wall facing each other in a marshy area.	test	['two']	['Three young boys stand on a low cement wall facing each other in a marshy area.']	['Two young boys']	False
+6999596517	144398	In this photo, two young boys are socializing by a pond.	test	['two']	['In this photo, three young boys are socializing by a pond.']	['two young boys']	True
+6999596517	144399	Two kids are standing next to a small pond.	test	['two']	['Three kids are standing next to a small pond.']	['Two kids']	False
+7034076961	144775	Two guys, one wearing a red costume and the other wearing a white top and black shorts, are playing beach volleyball.	test	['two']	['Three guys, one wearing a red costume and the other wearing a white top and black shorts, are playing beach volleyball.']	['Two guys']	False
+7034076961	144776	Two men, one in black and white and one in red, are playing beach volleyball.	test	['two']	['Three men, one in black and white and one in red, are playing beach volleyball.']	['Two men']	False
+7034076961	144777	Two men, both with hats on, are playing volleyball on a beach.	test	['two']	['Three men, both with hats on, are playing volleyball on a beach.']	['Two men']	True
+7034076961	144779	Two males playing volleyball on the beach.	test	['two']	['Three males playing volleyball on the beach.']	['Two males']	False
+7052724381	144893	Two feet and a surfboard emerging from a wave.	test	['two']	['Three feet and a surfboard emerging from a wave.']	['Two feet']	False
+7099368287	145215	Two soccer players on different teams collide in midair while jumping towards the ball.	test	['two']	['Three soccer players on different teams collide in midair while jumping towards the ball.']	['Two soccer players']	True
+7099368287	145216	Two football players compete for the ball while another teammate looks on.	test	['two']	['Three football players compete for the ball while another teammate looks on.']	['Two football players']	True
+7099368287	145219	Two football players, jumping in attempt to win a header.	test	['two']	['Three football players, jumping in attempt to win a header.']	['Two football players']	True
+7130336193	145420	Two children playing soccer on the field, one is wearing a blue shirt and the other is wearing a orange shirt.	test	['two']	['Three children playing soccer on the field, one is wearing a blue shirt and the other is wearing a orange shirt.']	['Two children']	False
+7130336193	145423	Two boys practicing passing a soccer ball.	test	['two']	['Three boys practicing passing a soccer ball.']	['Two boys']	True
+7130336193	145424	Two boys play soccer against each other.	test	['two']	['Three boys play soccer against each other.']	['Two boys']	False
+7151070637	145540	A crowd of people run a marathon in a cityscape with two skyscrapers in the background.	test	['two']	['A crowd of people run a marathon in a cityscape with three skyscrapers in the background.']	['two skyscrapers']	False
+7151070637	145542	A group of runners are running towards two identical skyscrapers.	test	['two']	['A group of runners are running towards three identical skyscrapers.']	['two identical skyscrapers']	True
+7194590496	145926	This captures two athletes playing a game of water Vally-ball.	test	['two']	['This captures three athletes playing a game of water Vally-ball.']	['two athletes']	False
+7194590496	145928	Two people are playing a water sport.	test	['two']	['Three people are playing a water sport.']	['Two people']	False
+72008434	145989	Two gay men in a room kissing.	test	['two']	['Three gay men in a room kissing.']	['Two gay men']	False
+7330749240	146771	Two race cars are going down a racetrack bend.	test	['two']	['Three race cars are going down a racetrack bend.']	['Two race cars']	True
+7330749240	146772	Two cars are driving on a racetrack.	test	['two']	['Three cars are driving on a racetrack.']	['Two cars']	False
+7330749240	146774	Two cars are on a racetrack.	test	['two']	['Three cars are on a racetrack.']	['Two cars']	False
+7333716086	146787	A man wearing a blue and white uniform clutching two yellow ski handles.	test	['two']	['A man wearing a blue and white uniform clutching three yellow ski handles.']	['two yellow ski handles']	True
+733965014	146822	Two people are laying down and kissing on a grassy lawn.	test	['two']	['Three people are laying down and kissing on a grassy lawn.']	['Two people']	True
+7393977570	147120	Two football players leap into the air as a player on the opposing team moves toward them.	test	['two']	['Three football players leap into the air as a player on the opposing team moves toward them.']	['Two football players']	False
+7393977570	147121	Two defensive players jumping in the air to block a quarterback's pass.	test	['two']	"[""Three defensive players jumping in the air to block a quarterback's pass.""]"	['Two defensive players']	True
+7393977570	147124	Four young football players in mid play.	test	['four']	['Three young football players in mid play.']	['Four young football players']	True
+7438195398	147400	Three musicians on a stage, two are guitarists, and one is wearing a hat, black striped pants, strumming a red electric guitar, and the other guitarist is strumming a white guitar while the other musician is wearing blue jeans and a black t-shirt and singing.	test	['two', 'three']	['Three musicians on a stage, three are guitarists, and one is wearing a hat, black striped pants, strumming a red electric guitar, and the other guitarist is strumming a white guitar while the other musician is wearing blue jeans and a black t-shirt and singing.', 'Four musicians on a stage, two are guitarists, and one is wearing a hat, black striped pants, strumming a red electric guitar, and the other guitarist is strumming a white guitar while the other musician is wearing blue jeans and a black t-shirt and singing.']	['two', 'Three musicians']	False
+7544009146	148041	Two older men with white shirts and black pants playing the cello.	test	['two']	['Three older men with white shirts and black pants playing the cello.']	['Two older men']	False
+7544009146	148042	Two upright bass players performing as a part of an orchestra.	test	['two']	['Three upright bass players performing as a part of an orchestra.']	['Two upright bass players']	True
+7544009146	148043	Two concert base players are playing their instruments.	test	['two']	['Three concert base players are playing their instruments.']	['Two concert base players']	True
+7567712136	148181	Two figures, a male and a female, are blacked out and standing in front of a building on fire.	test	['two']	['Three figures, a male and a female, are blacked out and standing in front of a building on fire.']	['Two figures']	False
+7567712136	148182	Two people, a man and a woman, are looking at a structure being burned down.	test	['two']	['Three people, a man and a woman, are looking at a structure being burned down.']	['Two people']	False
+7567712136	148183	Two people, a male and a female, are watching a very large fire.	test	['two']	['Three people, a male and a female, are watching a very large fire.']	['Two people']	False
+76485985	148770	Two girls wearing pink have their hands in or near a fountain in a shopping complex where people throw coins in it.	test	['two']	['Three girls wearing pink have their hands in or near a fountain in a shopping complex where people throw coins in it.']	['Two girls']	False
+76485985	148771	Two girls both dressed in different shades of pink play in the water of a fountain.	test	['two']	['Three girls both dressed in different shades of pink play in the water of a fountain.']	['Two girls']	False
+76485985	148773	Two young girls dressed in pink reach into wishing fountain at mall.	test	['two']	['Three young girls dressed in pink reach into wishing fountain at mall.']	['Two young girls']	True
+76485985	148774	Two girls dipping their hands in a fountain as people walk by.	test	['two']	['Three girls dipping their hands in a fountain as people walk by.']	['Two girls']	False
+7670346004	148958	Two men, one wearing white and the other wearing blue, are wrestling.	test	['two']	['Three men, one wearing white and the other wearing blue, are wrestling.']	['Two men']	True
+7670346004	148959	Two young men wrestling competitively.	test	['two']	['Three young men wrestling competitively.']	['Two young men']	False
+77587237	149720	Two children walk over a stone bridge in the country to meet their parent.	test	['two']	['Three children walk over a stone bridge in the country to meet their parent.']	['Two children']	False
+77587237	149721	Two children in warm jackets stand on a stone bridge over a small stream.	test	['two']	['Three children in warm jackets stand on a stone bridge over a small stream.']	['Two children']	True
+77587237	149722	Two children in a meadow standing on a little rock bridge over a creek.	test	['two']	['Three children in a meadow standing on a little rock bridge over a creek.']	['Two children']	True
+77587237	149723	Two children cross a small brook using a stone bridge.	test	['two']	['Three children cross a small brook using a stone bridge.']	['Two children']	False
+7764093618	149760	Two women sit on a brown scooter, one is wearing blue jeans and a brown jacket, the other is carrying a bag and has on black pants and a black top with a green hat.	test	['two']	['Three women sit on a brown scooter, one is wearing blue jeans and a brown jacket, the other is carrying a bag and has on black pants and a black top with a green hat.']	['Two women']	False
+7764093618	149761	Two African american females ride on a moped down a city street that appears to be in a well congested area of a large city area.	test	['two']	['Three African american females ride on a moped down a city street that appears to be in a well congested area of a large city area.']	['Two African american females']	False
+7764093618	149762	Two Black women in a brown motorcycle amidst many other motorcycles with the woman in the rear giving a smile to the camera.	test	['two']	['Three Black women in a brown motorcycle amidst many other motorcycles with the woman in the rear giving a smile to the camera.']	['Two Black women']	False
+7764093618	149763	Two African American women without helmets are riding on a scooter, the passenger is waving to the camera.	test	['two']	['Three African American women without helmets are riding on a scooter, the passenger is waving to the camera.']	['Two African American women']	False
+7764093618	149764	Two women riding on a vespa, sadly only one is enjoying herself.	test	['two']	['Three women riding on a vespa, sadly only one is enjoying herself.']	['Two women']	False
+783994497	150327	Two guys getting a drink at a store counter.	test	['two']	['Three guys getting a drink at a store counter.']	['Two guys']	False
+783994497	150328	Two boys in front of a soda machine.	test	['two']	['Three boys in front of a soda machine.']	['Two boys']	False
+8016751611	151180	Five cyclists, all wearing the same uniforms, are riding one behind the other in a bicycle race.	test	['five']	['Four cyclists, all wearing the same uniforms, are riding one behind the other in a bicycle race.']	['Five cyclists']	False
+8016751611	151184	Four bicyclists in turquoise and striped tops are riding in a competition.	test	['four']	['Three bicyclists in turquoise and striped tops are riding in a competition.']	['Four bicyclists']	False
+8052387530	151415	Four football players in black are tackling the opposing team's player, shown in white, while it is raining.	test	['four']	"[""Three football players in black are tackling the opposing team's player, shown in white, while it is raining.""]"	['Four football players']	False
+8052387530	151416	Three members of an opposing football team are tackling an opponent to the ground during a rainy football game.	test	['three']	['Two members of an opposing football team are tackling an opponent to the ground during a rainy football game.']	['Three members']	False
+8052397902	151426	Two football players wearing blue jerseys tackle the opposing team's football player.	test	['two']	"[""Three football players wearing blue jerseys tackle the opposing team's football player.""]"	['Two football players']	False
+8052397902	151427	Two American football players in blue are tackling a football player in red.	test	['two']	['Three American football players in blue are tackling a football player in red.']	['Two American football players']	False
+8052397902	151428	A runner scrambles for yardage while being brought down by two tacklers.	test	['two']	['A runner scrambles for yardage while being brought down by three tacklers.']	['two tacklers']	True
+821071719	152401	Two people are playing baseball while another team watches off from the sideline.	test	['two']	['Three people are playing baseball while another team watches off from the sideline.']	['Two people']	True
+8234387593	152517	Four white guys playing basketball and looks like the white jersey is about to score over the red jersey.	test	['four']	['Three white guys playing basketball and looks like the white jersey is about to score over the red jersey.']	['Four white guys']	False
+8234387593	152518	Two young men playing basketball, one defending the other attempting to make a basket.	test	['two']	['Three young men playing basketball, one defending the other attempting to make a basket.']	['Two young men']	False
+8234387593	152519	Two young men, one in a white jersey and one in a red jersey, playing basketball.	test	['two']	['Three young men, one in a white jersey and one in a red jersey, playing basketball.']	['Two young men']	True
+83292701	152745	Two children wearing striped sweaters and black pants tussle outdoors near a play set.	test	['two']	['Three children wearing striped sweaters and black pants tussle outdoors near a play set.']	['Two children']	False
+83292701	152746	Two boys in black pants are in contact with each with a slide in the background.	test	['two']	['Three boys in black pants are in contact with each with a slide in the background.']	['Two boys']	True
+83292701	152747	Two young boys playing in a dirt top playground.	test	['two']	['Three young boys playing in a dirt top playground.']	['Two young boys']	True
+83292701	152748	Two boys playing together at a playground.	test	['two']	['Three boys playing together at a playground.']	['Two boys']	False
+83292701	152749	Two young boys play together at a park.	test	['two']	['Three young boys play together at a park.']	['Two young boys']	False
+86120845	153260	Six men are sitting or laying on a patch of earth in a wooded area.	test	['six']	['Five men are sitting or laying on a patch of earth in a wooded area.']	['Six men']	False
+86120845	153263	Six men sit in a field of crops containing wooden crates.	test	['six']	['Five men sit in a field of crops containing wooden crates.']	['Six men']	False
+900144365	153906	Two women runners in athletic shorts and bras going down a city street.	test	['two']	['Three women runners in athletic shorts and bras going down a city street.']	['Two women runners']	False
+95758790	154466	Some children are outside playing in the dirt where two trees are.	test	['two']	['Some children are outside playing in the dirt where three trees are.']	['two trees']	True
