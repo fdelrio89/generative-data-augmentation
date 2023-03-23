@@ -1,6 +1,8 @@
+import json
 import timm
 import torch
 import torch.nn as nn
+import tqdm
 import requests
 
 from detectron2 import model_zoo
@@ -103,16 +105,28 @@ class ClipEvaluator:
 
         return cosine_sim
 
-class DummyModel:
-    pass
-
 if __name__ == "__main__":
+    # Define evaluator
     evaluator = ClipEvaluator()
 
-    image_path = 'cristian.jpg'
-    image = Image.open(image_path)
+    # Load data (edit this to evaluate dataset)
+    dataloader = None
 
-    # score = evaluator.evaluate(image, "homo, man, human_being, human")
-    # score = evaluator.evaluate(image)
-    score = evaluator.evaluate(image, "a selfie of a bearded man")
-    print(score)
+    results = {}
+    for idx, real_image, real_caption, synth_images, synth_captions in tqdm.tqdm(dataloader):
+        # Create baseline score based on real data
+        baseline = evaluator.evaluate(real_image, real_caption)
+        # Generate scores from synthetic data
+        synth_scores = {
+            synth_caption: evaluator.evaluate(
+                synth_image, synth_caption
+            ) for synth_image, synth_caption in zip(synth_images, synth_captions)
+        }
+        # Update results dictionary
+        results[idx] = {
+            "real_score": baseline,
+            **synth_scores
+        }
+
+    with open("evaluation_results.json", "w") as json_results:
+        json.dump(results, json_results, indent=4)
