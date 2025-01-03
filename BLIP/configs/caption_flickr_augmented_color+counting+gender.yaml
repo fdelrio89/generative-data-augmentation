@@ -1,0 +1,57 @@
+image_root:
+  all: '/workspace1/fidelrio/flickr30k/imgs/'
+  # Andres' Stable Diffusion
+  # train_color: '/workspace1/fidelrio/sd_color_images/image_0_'
+  # train_counting: '/workspace1/fidelrio/sd_counting_images/image_0_'
+  # train_gender: '/workspace1/fidelrio/sd_gender_images/image_0_'
+  # Charlies's Inpaiting
+  # train_color: '/workspace1/fidelrio/caspillaga/impainting/color/image_0_'
+  # train_counting: '/workspace1/fidelrio/caspillaga/impainting/counting/image_0_'
+  # train_gender: '/workspace1/fidelrio/caspillaga/impainting/gender/image_0_'
+  # AAE
+  train_color: '/workspace1/fidelrio/aae/Caption_training_color/image_0_'
+  train_counting: '/workspace1/fidelrio/aae/Caption_training_counting/image_0_'
+  train_gender: '/workspace1/fidelrio/aae/Caption_training_gender/image_0_'
+image_exts:
+  all: '.jpg'
+  train_color: '.png'
+  train_counting: '.png'
+  train_gender: '.png'
+ann_root: '/mnt/nas2/GrimaRepo/fidelrio/generative-data-augmentation/data/'
+dataset: 'caption_augmented_flickr'
+list_skills: 'color,counting,gender'
+available_skills: 'color,counting,gender'
+
+# set pretrained as a file path or an url
+# pretrained: 'https://storage.googleapis.com/sfr-vision-language-research/BLIP/models/model_base_caption_capfilt_large.pth'
+# pretrained: 'https://storage.googleapis.com/sfr-vision-language-research/BLIP/models/model_base.pth'
+pretrained: '/mnt/nas2/GrimaRepo/fidelrio/generative-data-augmentation/BLIP/checkpoints/model_base.pth'
+# size of vit model; base or large
+vit: 'base'
+vit_grad_ckpt: False
+vit_ckpt_layer: 0
+# batch_size: 32
+batch_size: 24
+init_lr: 1e-5
+
+# vit: 'large'
+# vit_grad_ckpt: True
+# vit_ckpt_layer: 5
+# batch_size: 16
+# init_lr: 2e-6
+
+image_size: 384
+
+# generation configs
+max_length: 20
+min_length: 5
+num_beams: 3
+prompt: 'a picture of '
+
+# optimizer
+weight_decay: 0.05
+min_lr: 0
+max_epoch: 50
+
+patience: 5
+early_stopping_metric: bleu4

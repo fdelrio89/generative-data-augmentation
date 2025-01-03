@@ -20,6 +20,21 @@ class augmented_flickr30k(Dataset):
         self.max_words = max_words
         self.prompt = prompt
         self.img_ids = {}
+
+        # Remove invalid images
+        original_len = len(self.annotation)
+        # self.annotation = [ann for ann in self.annotation if os.path.exists(ann['image_path'])]
+        valid_annotations = []
+        for ann in self.annotation:
+            try:
+                Image.open(ann['image_path']).convert('RGB')
+            except:
+                continue
+            valid_annotations.append(ann)
+
+        self.annotation = valid_annotations
+        print('{:.2f}% Images found and loaded.'.format(len(self.annotation) * 100 / original_len))
+
         n = 0
         for ann in self.annotation:
             img_id = ann['image_path']
@@ -79,6 +94,7 @@ class augmented_flickr30k(Dataset):
             image_ext = image_ext_dict[k] if k in image_ext_dict else base_image_ext
             if 'train' in k:
                 text_dataset[k]['image_path'] = (image_root
+                                                #  + text_dataset[k].image_ID.astype(str)
                                                  + text_dataset[k].image_ID.astype(str) + '_' + text_dataset[k].caption_ID.astype(str)
                                                  + image_ext)
             else:
